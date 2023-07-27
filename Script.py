@@ -200,7 +200,6 @@ Tɪᴘ: Sᴇʟᴇᴄᴛ "Lᴀɴɢᴜᴀɢᴇs" ᴏʀ "Sᴇᴀsᴏɴs" Bᴜᴛᴛ
 
     CAPTION = """<b>Fɪʟᴇꜱ Sɪᴢᴇ : {file_size}
 📂Fɪʟᴇ ɴᴀᴍᴇ : {file_name}
-ʙy <a href=f"https://t.me/hariomsingh31u">ʜᴀʀɪᴏᴍ ꜱɪɴɢʜ</a>
 </b>""" 
 
     IMDB_TEMPLATE_TXT = """
