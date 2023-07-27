@@ -199,7 +199,7 @@ Tɪᴘ: Sᴇʟᴇᴄᴛ "Lᴀɴɢᴜᴀɢᴇs" ᴏʀ "Sᴇᴀsᴏɴs" Bᴜᴛᴛ
 𝗠𝗲𝘀𝘀𝗮𝗴𝗲 <b>: {}</b>"""
 
     CAPTION = """<b>Fɪʟᴇꜱ Sɪᴢᴇ : {file_size}
-    📂Fɪʟᴇ ɴᴀᴍᴇ : {file_name}
+📂Fɪʟᴇ ɴᴀᴍᴇ : {file_name}
     </b>""" 
 
     IMDB_TEMPLATE_TXT = """
