@@ -9,7 +9,7 @@ Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs.</b>"""
 
     ABOUT_TXT = """<b>✯ Mʏ Nᴀᴍᴇ : {}</b>
 <b>✯ Cʀᴇᴀᴛᴏʀ : <a href=https://t.me/Hariomsingh31u>Oᴡɴᴇʀ</a></b>
-<b>✯ Uᴘᴅᴀᴛᴇs : <a href=https://t.me/naruto_update_ch>👾 Uᴘᴅᴀᴛᴇ</a></b>
+<b>✯ Uᴘᴅᴀᴛᴇs : <a href=https://t.me/hbbotz>👾 Uᴘᴅᴀᴛᴇ</a></b>
 <b>✯ Bᴜɪʟᴅ Sᴛᴀᴛᴜs : ᴠ2.0.62 [Sᴛᴀʙʟᴇ]</b>"""
 
     SOURCE_TXT = """
@@ -198,7 +198,8 @@ Tɪᴘ: Sᴇʟᴇᴄᴛ "Lᴀɴɢᴜᴀɢᴇs" ᴏʀ "Sᴇᴀsᴏɴs" Bᴜᴛᴛ
 
 𝗠𝗲𝘀𝘀𝗮𝗴𝗲 <b>: {}</b>"""
 
-    CAPTION = """<b>Fɪʟᴇꜱ Sɪᴢᴇ : {file_size}
+    CAPTION = """<b>
+Fɪʟᴇꜱ Sɪᴢᴇ : {file_size}
 📂Fɪʟᴇ ɴᴀᴍᴇ : {file_name}
 </b>""" 
 
