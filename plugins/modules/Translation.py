@@ -23,7 +23,7 @@ async def left(client,message):
                                 [
                                     [
                                         InlineKeyboardButton(
-                                            "Update Channel", url='https://t.me/hbbotz
+                                            "Update Channel", url='https://t.me/hbbotz'
                                         ),
                                     ],
 				    [
