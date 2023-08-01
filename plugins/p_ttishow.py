@@ -178,6 +178,8 @@ async def get_ststs(bot, message):
     currentTime = time.strftime("%Hh%Mm%Ss", time.gmtime(time.time() - BOT_START_TIME = 'time'
     await rju.edit(script.STATUS_TXT.format(files, total_users, totl_chats, size, free, currentTime, cpu_usage, ram_usage, disk_usage))
 
+
+
 @Client.on_message(filters.command('invite') & filters.user(ADMINS))
 async def gen_invite(bot, message):
     if len(message.command) == 1:
