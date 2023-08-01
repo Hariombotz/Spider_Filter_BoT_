@@ -176,7 +176,7 @@ async def get_ststs(bot, message):
     ram_usage = psutil.virtual_memory().percent
     disk_usage = psutil.disk_usage('/').percent
     currentTime = time.strftime("%Hh%Mm%Ss", time.gmtime(time.time() - BOT_START_TIME = 'time'
-    await rju.edit(script.STATUS_TXT.format(files, total_users, totl_chats, size, free, Time, cpu, ram, disk))
+    await rju.edit(script.STATUS_TXT.format(files, total_users, totl_chats, size, free))
 
 
 @Client.on_message(filters.command('invite') & filters.user(ADMINS))
