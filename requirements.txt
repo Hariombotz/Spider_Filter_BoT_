@@ -12,5 +12,5 @@ datetime
 pytz
 aiohttp
 openai
-psutil
+psutil==5.9.4
 googletrans==3.1.0a0
