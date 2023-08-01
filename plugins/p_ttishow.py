@@ -165,6 +165,7 @@ async def re_enable_chat(bot, message):
 @Client.on_message(filters.command('stats') & filters.incoming)
 async def get_ststs(bot, message):
     rju = await message.reply('Fetching stats..')
+    currentTime = time.strftime("%Hh%Mm%Ss", time.gmtime(time.time() - BOT_START_TIME))
     total_users = await db.total_users_count()
     totl_chats = await db.total_chat_count()
     files = await Media.count_documents()
@@ -172,7 +173,10 @@ async def get_ststs(bot, message):
     free = 536870912 - size
     size = get_size(size)
     free = get_size(free)
-    await rju.edit(script.STATUS_TXT.format(files, total_users, totl_chats, size, free))
+    cpu_usage = psutil.cpu_percent()
+    ram_usage = psutil.virtual_memory().percent
+    disk_usage = psutil.disk_usage('/').percent
+    await rju.edit(script.STATUS_TXT.format(files, total_users, totl_chats, size, free, currentTime, cpu_usage, ram_usage, disk_usage))
 
 
 @Client.on_message(filters.command('invite') & filters.user(ADMINS))
