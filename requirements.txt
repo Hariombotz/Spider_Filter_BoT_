@@ -15,3 +15,4 @@ openai
 psutil==5.9.4
 googletrans==3.1.0a0
 dnspython==2.3.0
+yt-dlp
