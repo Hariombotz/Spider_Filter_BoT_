@@ -12,3 +12,4 @@ datetime
 pytz
 aiohttp
 openai
+psutil
