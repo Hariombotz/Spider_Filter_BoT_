@@ -1,19 +1,11 @@
 from googletrans import Translator
-from pyrogram import Client, filters, enums
-from pyrogram.types import (
-    InlineKeyboardButton,
-    InlineKeyboardMarkup
-)
-
-from plugins.helpers.database import find , insert
+from pyrogram import Client, filters
+from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton, CallbackQuery
 from plugins.helpers.list import list
-from Script import script
-from info import SP
 
 @Client.on_message(filters.command(["tr"]))
 async def left(client,message):
 	if (message.reply_to_message):
-		try:
 			lgcd = message.text.split("/tr")
 			lg_cd = lgcd[1].lower().replace(" ", "")
 			tr_text = message.reply_to_message.text
