@@ -13,3 +13,4 @@ pytz
 aiohttp
 openai
 psutil
+googletrans
