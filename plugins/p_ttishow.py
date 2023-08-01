@@ -173,7 +173,7 @@ async def get_ststs(bot, message):
     size = get_size(size)
     free = get_size(free)
     currentTime = time.strftime("%Hh%Mm%Ss", time.gmtime(time.time() - BOT_START_TIME = 'time'
-await rju.edit(script.STATUS_TXT.format(files, total_users, totl_chats, size, free))
+    await rju.edit(script.STATUS_TXT.format(files, total_users, totl_chats, size, free, currentTime))
 
 
 
