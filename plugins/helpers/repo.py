@@ -14,7 +14,7 @@ async def git(Kashmira, message):
   args = message.text.split(None, 1)[1]
   if len(message.command) == 1:
     await pablo.edit("No input found")
-        return
+    return
     r = requests.get("https://api.github.com/search/repositories", params={"q": args})
     lool = r.json()
     if lool.get("total_count") == 0:
