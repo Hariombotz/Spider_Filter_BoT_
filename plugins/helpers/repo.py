@@ -15,7 +15,7 @@ async def git(Kashmira, message):
   if len(message.command) == 1:
     await pablo.edit("No input found")
     return
-    r = requests.get("https://api.github.com/search/repositories", params={"q": args})
+    r = requests.get("https://api.github.com/search/repositories", params={q: args})
     lool = r.json()
     if lool.get("total_count") == 0:
       await pablo.edit("File not found")
