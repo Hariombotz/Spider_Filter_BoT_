@@ -12,8 +12,8 @@ from pyrogram import Client, filters
 async def git(Kashmira, message):
   pablo = await message.reply_text("Processing...")
   args = message.text.split(None, 1)[1]
-    if len(message.command) == 1:
-        await pablo.edit("No input found")
+  if len(message.command) == 1:
+    await pablo.edit("No input found")
         return
     r = requests.get("https://api.github.com/search/repositories", params={"q": args})
     lool = r.json()
