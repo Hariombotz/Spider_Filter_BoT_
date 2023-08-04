@@ -1,4 +1,4 @@
-#codes created by @lallu_tg
+#codes created by @Hariomsingh31u
 #use this codes with proper credits
 
 
@@ -10,7 +10,7 @@ from pyrogram import Client, filters
 
 @Client.on_message(filters.command('repo'))
 async def git(Kashmira, message):
-    pablo = await message.reply_text("`Processing...`")
+    pablo = await message.reply_text("`𝚆𝚊𝚒𝚝 𝙵𝚒𝚗𝚍𝚒𝚗𝚐 𝚈𝚘𝚞𝚛 𝚁𝚎𝚙𝚘...`")
     args = message.text.split(None, 1)[1]
     if len(message.command) == 1:
         await pablo.edit("No input found")
