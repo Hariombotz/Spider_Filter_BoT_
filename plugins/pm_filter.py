@@ -1578,7 +1578,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
         )
-     elif query.data == "money_bot":
+     elif query.data == "oggy_txt":
         buttons = [[
             InlineKeyboardButton('📽 Mᴏᴠɪᴇ Gʀᴏᴜᴘ', url='https://t.me/hb_moive'),
             InlineKeyboardButton('🌿 Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url='https://t.me/naruto_support_ch')
@@ -1591,7 +1591,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InputMediaPhoto("https://telegra.ph/file/c8754349906de84b90e9a.jpg")
         )
         await query.message.edit_text(
-            text=script.EARN_TXT,
+            text=script.OGGY_TXT,
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
         )  
