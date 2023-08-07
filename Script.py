@@ -166,7 +166,7 @@ sᴛᴇᴘ 𝟹 : ꜰᴏʟʟᴏᴡ ᴛʜᴇsᴇ <a href=https://t.me/naruto_upda
 Any Doubts or Not Connecting? Contact Me </b>
 """
 
-     OGGY_TXT = """
+    OGGY_TXT = """
 <b>🔋 ᴄʜᴀɴɴᴇʟs & ɢʀᴏᴜᴘs ᴍᴏᴅᴜʟᴇ 🔋
 ᴄᴏᴍᴘʟᴇᴛᴇ ᴍᴏᴠɪᴇ ʀᴇǫᴜᴇsᴛɪɴɢ ɢʀᴏᴜᴘ.
 ᴀʟʟ ʟᴀɴɢᴜᴀɢᴇs ᴍᴏᴠɪᴇs & ꜱᴇʀɪᴇs.
