@@ -144,7 +144,7 @@ async def start(client, message):
                     reply_markup=InlineKeyboardMarkup(
                         [
                          [
-                          InlineKeyboardButton('🍁 𝗨𝗣𝗗𝗔𝗧𝗘', url=f'https://t.me/hbbotz')
+                          InlineKeyboardButton('🍁 Uᴘᴅᴀᴛᴇ', url=f'https://t.me/hbbotz')
                          ]
                         ]
                     )
@@ -160,7 +160,7 @@ async def start(client, message):
                     reply_markup=InlineKeyboardMarkup(
                         [
                          [
-                          InlineKeyboardButton('🍁 𝗨𝗣𝗗𝗔𝗧𝗘', url=f'https://t.me/hbbotz')
+                          InlineKeyboardButton('🍁 Uᴘᴅᴀᴛᴇ', url=f'https://t.me/hbbotz')
                          ]
                         ]
                     )
@@ -321,7 +321,7 @@ async def start(client, message):
                 reply_markup=InlineKeyboardMarkup(
                     [
                      [
-                      InlineKeyboardButton('🍁 𝗨𝗣𝗗𝗔𝗧𝗘', url=f'https://t.me/hbbotz')
+                      InlineKeyboardButton('🍁 Uᴘᴅᴀᴛᴇ', url=f'https://t.me/hbbotz')
                      ]
                     ]
                 )
@@ -380,7 +380,7 @@ async def start(client, message):
                 reply_markup=InlineKeyboardMarkup(
                     [
                      [
-                      InlineKeyboardButton('🍁 𝗨𝗣𝗗𝗔𝗧𝗘', url=f'https://t.me/hbbotz')
+                      InlineKeyboardButton('🍁 Uᴘᴅᴀᴛᴇ', url=f'https://t.me/hbbotz')
                      ]
                     ]
                 )
@@ -437,7 +437,7 @@ async def start(client, message):
         reply_markup=InlineKeyboardMarkup(
             [
              [
-              InlineKeyboardButton('🍁 𝗨𝗣𝗗𝗔𝗧𝗘', url=f'https://t.me/hbbotz')
+              InlineKeyboardButton('🍁 Uᴘᴅᴀᴛᴇ', url=f'https://t.me/hbbotz')
              ]
             ]
         )
