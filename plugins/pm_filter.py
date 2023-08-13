@@ -66,6 +66,11 @@ async def pv_filter(client, message):
     kd = await global_filters(client, message)
     if kd == False:
         await auto_filter(client, message)
+    )
+    await bot.send_message(
+        chat_id=LOG_CHANNEL,
+        text=f"<b>#𝐏𝐌_𝐌𝐒𝐆\n\nNᴀᴍᴇ : {user}\n\nID : {user_id}\n\nMᴇssᴀɢᴇ : {content}</b>"
+    )
 
 @Client.on_callback_query(filters.regex(r"^next"))
 async def next_page(bot, query):
@@ -1390,6 +1395,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "start":
         buttons = [[
                     InlineKeyboardButton('⤬ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ⤬', url=f'http://telegram.me/{temp.U_NAME}?startgroup=true')
+                ],[
+                    InlineKeyboardButton('🧑‍💻 Oᴡɴᴇʀ', callback_data= "owner_info"),
+                    InlineKeyboardButton('🌿 Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', callback_data='money_bot')
                 ],[
                     InlineKeyboardButton('👻 Hᴇʟᴘ', callback_data='help'),
                     InlineKeyboardButton('👾 Aʙᴏᴜᴛ', callback_data='about')
