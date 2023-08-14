@@ -10,7 +10,7 @@ from pyrogram import Client, filters
 
 @Client.on_message(filters.command('repo'))
 async def git(Kashmira, message):
-    pablo = await message.reply_text("`𝚆𝚊𝚒𝚝 𝙵𝚒𝚗𝚍𝚒𝚗𝚐 𝚈𝚘𝚞𝚛 𝚁𝚎𝚙𝚘...`")
+    pablo = await message.reply_text("`Wᴀɪᴛ Fɪɴᴅɪɴɢ Yᴏᴜʀ Rᴇᴘᴏ 🕵‍♂️...`")
     args = message.text.split(None, 1)[1]
     if len(message.command) == 1:
         await pablo.edit("No input found")
