@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://telegra.ph/file/68837d94419f56d5bac7b.jpg" alt="Anaya-filter-Bot Logo">
+  <img src="https://telegra.ph/file/79f803e33a91f2c985a05.jpg" alt="Anaya-filter-Bot Logo">
 </p>
 <h1 align="center">
   ANAYA-FILTER-BOT
