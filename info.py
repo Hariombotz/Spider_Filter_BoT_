@@ -49,7 +49,7 @@ DATABASE_NAME = environ.get('DATABASE_NAME', "Hbbotz")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Others
-IS_VERIFY = bool(environ.get('IS_VERIFY', True))
+VERIFY = bool(environ.get('IS_VERIFY', True))
 VERIFY2_URL = environ.get('VERIFY2_URL', "tinyfy.in")
 VERIFY2_API = environ.get('VERIFY2_API', "3788f44ed9c2846be08ee987fcd6a1db711f252d")
 SHORTLINK_URL = environ.get('SHORTLINK_URL', 'tinyfy.in')
