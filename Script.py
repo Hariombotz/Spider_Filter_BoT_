@@ -11,7 +11,7 @@ Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs.</b>"""
 <b>🧑 Cʀᴇᴀᴛᴏʀ : <a href=https://t.me/Hariomsingh31u>Hᴀʀɪᴏᴍ</a></b>
 📚 Lɪʙʀᴀʀʏ : <a href='https://docs.pyrogram.org/'>Pʏʀᴏɢʀᴀᴍ</a>
 🌐 DᴀᴛᴀBᴀsᴇ : <a href='https://www.mongodb.com/'>MᴏɴɢᴏDB</a>
-📡 Bᴏᴛ Sᴇʀᴠᴇʀ : <a href='https://t.me/quickfastt'>ǫᴜɪᴄᴋ ꜰᴀsᴛ​</a>
+📡 Bᴏᴛ Sᴇʀᴠᴇʀ : <a href='https://t.me/jerrybot.cf'>ǫᴜɪᴄᴋ ꜰᴀsᴛ​</a>
 🥶 Bᴜɪʟᴅ Sᴛᴀᴛᴜs: ᴠ3.0.62</b>"""
 
     SOURCE_TXT = """
