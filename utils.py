@@ -631,13 +631,14 @@ async def get_tutorial(chat_id):
         TUTORIAL_URL = TUTORIAL
     return TUTORIAL_URL
         
-async def get_verify_shorted_link(num, link):
-        API = SHORTLINK_API
-        URL = SHORTLINK_URL
+async def get_verify_shorted_link(link):
+    API = SHORTLINK_API
+    URL = SHORTLINK_URL
     https = link.split(":")[0]
     if "http" == https:
         https = "https"
         link = link.replace("http", https)
+
 
     if URL == "api.shareus.in":
         url = f"https://{URL}/shortLink"
