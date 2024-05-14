@@ -6,7 +6,7 @@ import pytz
 import datetime, time
 from Script import script 
 from info import ADMINS, PREMIUM_LOGS
-from utils import get_seconds
+from utils import 'get_seconds'
 from database.users_chats_db import db 
 from pyrogram import Client, filters 
 from pyrogram.errors.exceptions.bad_request_400 import MessageTooLong
