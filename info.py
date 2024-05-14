@@ -49,11 +49,11 @@ DATABASE_NAME = environ.get('DATABASE_NAME', "Hbbotz")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Others
-VERIFY = bool(environ.get('IS_VERIFY', False))
+VERIFY = bool(environ.get('IS_VERIFY', True))
 SHORTLINK_URL = environ.get('SHORTLINK_URL', 'tinyfy.in')
-SHORTLINK_API = environ.get('SHORTLINK_API', '3788f44ed9c2846be08ee987fcd6a1db711f252d')
+SHORTLINK_API = environ.get('SHORTLINK_API', 'cfeb00e057c220e6a91197387a0734374436dc91')
 SECOND_SHORTLINK_URL = environ.get('SECOND_SHORTLINK_URL', 'tinyfy.in')
-SECOND_SHORTLINK_API = environ.get('SECOND_SHORTLINK_API', '3788f44ed9c2846be08ee987fcd6a1db711f252d')
+SECOND_SHORTLINK_API = environ.get('SECOND_SHORTLINK_API', 'cfeb00e057c220e6a91197387a0734374436dc91')
 IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', True))
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
 MAX_B_TN = environ.get("MAX_B_TN", "5")
