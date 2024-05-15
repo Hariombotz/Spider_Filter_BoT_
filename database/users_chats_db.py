@@ -1,6 +1,8 @@
 # https://github.com/odysseusmax/animated-lamp/blob/master/bot/database/database.py
 import motor.motor_asyncio
 from info import DATABASE_NAME, DATABASE_URI, IMDB, IMDB_TEMPLATE, MELCOW_NEW_USERS, P_TTI_SHOW_OFF, SINGLE_BUTTON, SPELL_CHECK_REPLY, PROTECT_CONTENT, AUTO_DELETE, MAX_BTN, AUTO_FFILTER, SHORTLINK_API, SHORTLINK_URL, IS_SHORTLINK, TUTORIAL, IS_TUTORIAL
+import datetime
+import pytz
 
 class Database:
     
@@ -9,7 +11,16 @@ class Database:
         self.db = self._client[database_name]
         self.col = self.db.users
         self.grp = self.db.groups
-
+        self.users = self.db.uersz
+        self.req = self.db.requests
+        
+    async def find_join_req(self, id):
+        return bool(await self.req.find_one({'id': id}))
+        
+    async def add_join_req(self, id):
+        await self.req.insert_one({'id': id})
+    async def del_join_req(self):
+        await self.req.drop()
 
     def new_user(self, id, name):
         return dict(
@@ -150,7 +161,7 @@ class Database:
     async def get_db_size(self):
         return (await self.db.command("dbstats"))['dataSize']
 
-async def get_user(self, user_id):
+    async def get_user(self, user_id):
         user_data = await self.users.find_one({"id": user_id})
         return user_data
     async def update_user(self, user_data):
