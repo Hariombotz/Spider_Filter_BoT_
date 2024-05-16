@@ -169,7 +169,7 @@ Any Doubts or Not Connecting? Contact Me </b>
 """
 
     OGGY_TXT = """"""
-<b>👋 ʜᴇʏ ,
+<b> 👋 ʜᴇʏ
     
 🎁 ᴘʀᴇᴍɪᴜᴍ ғᴇᴀᴛᴜʀᴇs :
 
