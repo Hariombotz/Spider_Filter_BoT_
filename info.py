@@ -49,7 +49,7 @@ DATABASE_NAME = environ.get('DATABASE_NAME', "Hbbotz")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Others
-VERIFY = bool(environ.get('IS_VERIFY', True))
+VERIFY = bool(environ.get('IS_VERIFY', False))
 SHORTLINK_URL = environ.get('SHORTLINK_URL', 'Onepagelink.in')
 SHORTLINK_API = environ.get('SHORTLINK_API', '6e80228b0baa4f8b353333a0c88017e638fc85c5')
 SECOND_SHORTLINK_URL = environ.get('SECOND_SHORTLINK_URL', 'Onepagelink.in')
