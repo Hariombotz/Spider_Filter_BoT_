@@ -1650,8 +1650,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 quote=False,
                 disable_web_page_preview=True,                  
                 reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("💸 ᴄʜᴇᴄᴋᴏᴜᴛ ᴘʀᴇᴍɪᴜᴍ ᴘʟᴀɴꜱ 💸", callback_data='seeplans')]]))
-            return 
-        )
+            return
         
     elif query.data == "owner_info":
         buttons = [[
