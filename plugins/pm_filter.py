@@ -1070,46 +1070,19 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await send_all(client, query.from_user.id, files, ident, query.message.chat.id, query.from_user.first_name, query)
         await query.answer(f"Hey {query.from_user.first_name}, All files on this page has been sent successfully to your PM !", show_alert=True)
         
-   try:
-       if not await db.has_premium_access(clicked) and settings['is_shortlink']: #Don't change Anything without my permission @CodeluffyTG
-              if clicked == query.from_user.id:
-                    temp.SHORT[clicked] = query.message.chat.id
-                    await query.answer(url=f"https://telegram.me/{temp.U_NAME}?start=short_{file_id}")
-                    return
-                else:
-                    await query.answer(f"Hᴇʏ {query.from_user.first_name},\nTʜɪs Is Nᴏᴛ Yᴏᴜʀ Mᴏᴠɪᴇ Rᴇǫᴜᴇsᴛ.\nRᴇǫᴜᴇsᴛ Yᴏᴜʀ's !", show_alert=True)
-            else:
-                if clicked == query.from_user.id:
-                    await query.answer(url=f"https://telegram.me/{temp.U_NAME}?start={ident}_{file_id}")
-                    return
-                else:
-                    await query.answer(f"Hᴇʏ {query.from_user.first_name},\nTʜɪs Is Nᴏᴛ Yᴏᴜʀ Mᴏᴠɪᴇ Rᴇǫᴜᴇsᴛ.\nRᴇǫᴜᴇsᴛ Yᴏᴜʀ's !", show_alert=True)
-        except UserIsBlocked:
-            await query.answer('Uɴʙʟᴏᴄᴋ ᴛʜᴇ ʙᴏᴛ ᴍᴀʜɴ !', show_alert=True)
-        except PeerIdInvalid:
-            await query.answer(url=f"https://telegram.me/{temp.U_NAME}?start={ident}_{file_id}")
-        except Exception as e:
-            await query.answer(url=f"https://telegram.me/{temp.U_NAME}?start={ident}_{file_id}")
-            
     elif query.data.startswith("send_fall"):
-        clicked = query.from_user.id
-        ident, key = query.data.split("#")
-        settings = await get_settings(query.message.chat.id)
-        try:
-            if not await db.has_premium_access(clicked) and settings['is_shortlink']: # Don't Change anything without my permission @CoderluffyTG
-                await query.answer(url=f"https://telegram.me/{temp.U_NAME}?start=sendfiles1_{key}")
-                return
-            else:
-                await query.answer(url=f"https://telegram.me/{temp.U_NAME}?start=allfiles_{key}")
-                return
-        except UserIsBlocked:
-            await query.answer('Uɴʙʟᴏᴄᴋ ᴛʜᴇ ʙᴏᴛ ᴍᴀʜɴ !', show_alert=True)
-        except PeerIdInvalid:
-            await query.answer(url=f"https://telegram.me/{temp.U_NAME}?start=sendfiles3_{key}")
-        except Exception as e:
-            logger.exception(e)
-            await query.answer(url=f"https://telegram.me/{temp.U_NAME}?start=sendfiles4_{key}")
-    
+        temp_var, ident, key, offset = query.data.split("#")
+        if BUTTONS.get(key)!=None:
+            search = BUTTONS.get(key)
+        else:
+            search = FRESH.get(key)
+        if not search:
+            await query.answer(script.OLD_ALRT_TXT.format(query.from_user.first_name),show_alert=True)
+            return
+        files, n_offset, total = await get_search_results(query.message.chat.id, search, offset=int(offset), filter=True)
+        await send_all(client, query.from_user.id, files, ident, query.message.chat.id, query.from_user.first_name, query)
+        await query.answer(f"Hey {query.from_user.first_name}, All files on this page has been sent successfully to your PM !", show_alert=True)
+        
     elif query.data.startswith("killfilesdq"):
         ident, keyword = query.data.split("#")
         #await query.message.edit_text(f"<b>Fetching Files for your query {keyword} on DB... Please wait...</b>")
