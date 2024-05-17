@@ -302,7 +302,8 @@ async def start(client, message):
                         InlineKeyboardButton('✨ ʙᴜʏ ꜱᴜʙꜱᴄʀɪᴘᴛɪᴏɴ : ʀᴇᴍᴏᴠᴇ ᴀᴅꜱ ✨', callback_data="seeplans")
                     ]
                 ]
-            )
+             )
+           )
         await asyncio.sleep(1200)
         await k.edit("<b>Your message is successfully deleted!!!</b>")
         return
@@ -376,7 +377,8 @@ async def start(client, message):
                     ], [
                         InlineKeyboardButton('✨ ʙᴜʏ ꜱᴜʙꜱᴄʀɪᴘᴛɪᴏɴ : ʀᴇᴍᴏᴠᴇ ᴀᴅꜱ ✨', callback_data="seeplans")
                     ]
-                ]
+                  ]                            
+               )
             )
             await asyncio.sleep(1200)
             await k.edit("<b>Your message is successfully deleted!!!</b>")
