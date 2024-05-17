@@ -1630,7 +1630,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         ]]
         reply_markup = InlineKeyboardMarkup(btn)
         await query.message.reply_photo(
-            photo=(SUBSCRIPTION),
+            photo="https://telegra.ph/file/5309e51e633e8f4beac0c.jpg",
             caption=script.PREPLANS_TXT.format(query.from_user.mention),
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
