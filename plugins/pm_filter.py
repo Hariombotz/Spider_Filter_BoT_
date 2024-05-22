@@ -1513,6 +1513,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('⇍ ʙᴀᴄᴋ', callback_data='start'),
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
+        await client.edit_message_media(
+            query.message.chat.id, 
+            query.message.id,
+            InputMediaPhoto("https://telegra.ph/file/5309e51e633e8f4beac0c.jpg")
+        )
         await query.message.edit_text(
             text=script.OGGY_TXT.format(REFERAL_PREMEIUM_TIME, temp.U_NAME, query.from_user.id, REFERAL_COUNT),
             reply_markup=reply_markup,
@@ -1658,9 +1663,10 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
             InlineKeyboardButton('⟸ Bᴀᴄᴋ', callback_data='start')
         ]]
-        await client.edit_message_text(
+        await client.edit_message_media(
             query.message.chat.id, 
-            query.message.id
+            query.message.id,
+            InputMediaPhoto("https://telegra.ph/file/5309e51e633e8f4beac0c.jpg")
         )
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
