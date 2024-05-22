@@ -1528,7 +1528,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InputMediaPhoto("https://telegra.ph/file/5309e51e633e8f4beac0c.jpg")
         )
         await query.message.edit_text(
-            text=script.OGGY_TXT,
+            text=script.OGGY_TXT.format(REFERAL_PREMEIUM_TIME, temp.U_NAME, query.from_user.id, REFERAL_COUNT),
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
         )
