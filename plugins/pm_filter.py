@@ -1429,27 +1429,21 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "start":
         if PREMIUM_AND_REFERAL_MODE == True:
             buttons = [[
-                InlineKeyboardButton('⤬ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ⤬', url=f'http://telegram.me/{temp.U_NAME}?startgroup=true')
+                InlineKeyboardButton('« ᴀᴅᴅ ᴍᴇ ᴛᴏ yᴏᴜʀ ɢʀᴏᴜᴩꜱ »', url=f'http://telegram.me/{temp.U_NAME}?startgroup=true')
                 ],[
-                    InlineKeyboardButton('🧑‍💻 Oᴡɴᴇʀ', callback_data= "money4bot"),
-                    InlineKeyboardButton('✨️ 𝙱ᴜʏ 𝙿ʀᴇᴍɪᴜᴍ', callback_data='money_bot')
+                    InlineKeyboardButton('⚙️ ꜰᴇᴀᴛᴜʀᴇꜱ', callback_data="help"),
+                    InlineKeyboardButton('🪙 ꜱᴜʙꜱᴄʀɪᴩᴛɪᴏɴ', callback_data='money_bot')
                 ],[
-                    InlineKeyboardButton('👻 Hᴇʟᴘ', callback_data='help'),
-                    InlineKeyboardButton('👾 Aʙᴏᴜᴛ', callback_data='about')
-                ],[
-                    InlineKeyboardButton('💰 Eᴀʀɴ Mᴏɴᴇʏ Wɪᴛʜ Mᴇ 💸', callback_data="shortlink_info")
+                    InlineKeyboardButton('💸 ᴇᴀʀɴ ᴜɴʟɪᴍɪᴛᴇᴅ ᴍᴏɴᴇy ᴡɪᴛʜ ʙᴏᴛ 💸', callback_data="shortlink_info")
                   ]]
         else:
             buttons = [[
-                InlineKeyboardButton('⤬ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ⤬', url=f'http://telegram.me/{temp.U_NAME}?startgroup=true')
+                InlineKeyboardButton('« ᴀᴅᴅ ᴍᴇ ᴛᴏ yᴏᴜʀ ɢʀᴏᴜᴩꜱ »', url=f'https://telegram.me/{temp.U_NAME}?startgroup=true')
                 ],[
-                    InlineKeyboardButton('🧑‍💻 Oᴡɴᴇʀ', callback_data= "owner_info"),
-                    InlineKeyboardButton('🍄 Premium User', callback_data='money4bot')
+                    InlineKeyboardButton('⚙️ ꜰᴇᴀᴛᴜʀᴇꜱ', callback_data= "help"),
+                    InlineKeyboardButton('🍄 ᴩʀᴇᴍɪᴜᴍ ᴄʟᴀɪᴍᴇᴅ', callback_data='money4bot')
                 ],[
-                    InlineKeyboardButton('👻 Hᴇʟᴘ', callback_data='help'),
-                    InlineKeyboardButton('👾 Aʙᴏᴜᴛ', callback_data='about')
-                ],[
-                    InlineKeyboardButton('💰 Eᴀʀɴ Mᴏɴᴇʏ Wɪᴛʜ Mᴇ 💸', callback_data="shortlink_info")
+                    InlineKeyboardButton('💸 ᴇᴀʀɴ ᴜɴʟɪᴍɪᴛᴇᴅ ᴍᴏɴᴇy ᴡɪᴛʜ ʙᴏᴛ 💸', callback_data="shortlink_info")
                   ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
