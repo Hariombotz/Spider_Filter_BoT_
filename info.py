@@ -55,7 +55,7 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Others
 VERIFY = bool(environ.get('IS_VERIFY', False))
-PMFILTER = is_enabled(environ.get('PMFILTER', "True"), True)
+PMFILTER = is_enabled(environ.get('PMFILTER', "False"), False)
 G_FILTER = is_enabled(environ.get("G_FILTER", "True"), True)
 SHORTLINK_URL = environ.get('SHORTLINK_URL', 'Onepagelink.in')
 SHORTLINK_API = environ.get('SHORTLINK_API', '6e80228b0baa4f8b353333a0c88017e638fc85c5')
