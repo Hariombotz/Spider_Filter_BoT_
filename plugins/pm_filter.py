@@ -1522,7 +1522,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 query.message.id, 
                 InputMediaPhoto("https://telegra.ph/file/b2ab60c80ff67f6af0f6e.jpg")
         )
-        reply_markup = InlineKeyboardMarkup(btn)
+        reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
             text=script.OGGY_TXT.format(REFERAL_PREMEIUM_TIME, temp.U_NAME, query.from_user.id, REFERAL_COUNT),
             reply_markup=reply_markup,
