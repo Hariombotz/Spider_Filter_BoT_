@@ -74,7 +74,7 @@ async def start(client, message):
         m=await message.reply_sticker("CAACAgUAAxkBAAIbZmZJ_IwrDGtEVaEMEzkXvuEWKohXAAJiAQACA0S4VJX6Rd-kZjOfNAQ") 
         await asyncio.sleep(1)
         await m.delete()
-        await message.reply(script.START_TXT.format(message.from_user.mention, gtxt, temp.U_NAME, temp.B_NAME),
+        await message.reply_text(script.START_TXT.format(message.from_user.mention, gtxt, temp.U_NAME, temp.B_NAME),
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
         )
@@ -139,7 +139,7 @@ async def start(client, message):
         m=await message.reply_sticker("CAACAgUAAxkBAAIbZmZJ_IwrDGtEVaEMEzkXvuEWKohXAAJiAQACA0S4VJX6Rd-kZjOfNAQ") 
         await asyncio.sleep(1)
         await m.delete()
-        await message.reply(script.START_TXT.format(message.from_user.mention, gtxt, temp.U_NAME, temp.B_NAME),
+        await message.reply_text(script.START_TXT.format(message.from_user.mention, gtxt, temp.U_NAME, temp.B_NAME),
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
         )
