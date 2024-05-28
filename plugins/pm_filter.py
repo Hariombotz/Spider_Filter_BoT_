@@ -1492,11 +1492,6 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('⇍ ʙᴀᴄᴋ', callback_data='start'),
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
-        await client.edit_message_media(
-            query.message.chat.id, 
-            query.message.id,
-            InputMediaPhoto("https://telegra.ph/file/5309e51e633e8f4beac0c.jpg")
-        )
         await query.message.edit_text(
             text=script.PLAN_TXT.format(query.from_user.mention),
             reply_markup=reply_markup,
