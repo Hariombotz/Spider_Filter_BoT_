@@ -146,7 +146,7 @@ async def start(client, message):
     if data.split("-", 1)[0] == "start":
         user_id = int(data.split("-", 1)[1])
         if user_id == message.from_user.id:
-          await message.reply("♨️ You cannot refer yourself ♨️")
+          await message.reply("{} 𝒀𝒐𝒖 𝒂𝒓𝒆 𝒗𝒆𝒓𝒚 𝒄𝒉𝒂𝒂𝒍𝒂𝒌 𝑩𝒓𝒐 🤓\n\n𝑩𝒓𝒐 𝒍𝒊𝒏𝒌 𝒌𝒐 𝒂𝒑𝒏𝒆 𝒇𝒓𝒊𝒆𝒏𝒅𝒔 𝒌𝒐 𝒔𝒉𝒂𝒓𝒆 𝒌𝒂𝒓𝒐 𝒏𝒂 𝒌𝒊 𝒂𝒑𝒏𝒆 𝒂𝒂𝒑 𝒌𝒐.</b>".format(message.from_user.mention))
           return
         #if await db.find_ref_user(message.from_user.id):
             #return await message.reply_text('‼️ Yᴏᴜ ʜᴀᴠᴇ ʙᴇᴇɴ ᴀʟʀᴇᴀᴅʏ ɪɴᴠɪᴛᴇᴅ ᴏʀ ᴊᴏɪɴᴇᴅ')
