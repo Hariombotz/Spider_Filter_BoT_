@@ -1493,16 +1493,35 @@ async def cb_handler(client: Client, query: CallbackQuery):
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
+            text="𝑳𝒐𝒅𝒊𝒏𝒈...."
+        )
+        await query.message.edit_text(
+            text="𝑳𝒐𝒅𝒊𝒏𝒈......"
+        )
+        await query.message.edit_text(
+            text="𝑫𝒐𝒏𝒆 ✅️"
+        )
+        await query.message.edit_text(
             text=script.PLAN_TXT.format(query.from_user.mention),
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
         )
+   
     elif query.data == "free":
         buttons = [[
             InlineKeyboardButton('⇋ ʙᴀᴄᴋ', callback_data='money_bot'),
             InlineKeyboardButton('Invite 📲', url=f'https://t.me/share/url?url=https://telegram.me/{temp.U_NAME}?start=Deendayal-{query.from_user.id}')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text="𝑳𝒐𝒅𝒊𝒏𝒈...."
+        )
+        await query.message.edit_text(
+            text="𝑳𝒐𝒅𝒊𝒏𝒈......"
+        )
+        await query.message.edit_text(
+            text="𝑫𝒐𝒏𝒆 ✅️"
+        )
         await query.message.edit_text(
             text=script.OGGY_TXT.format(REFERAL_PREMEIUM_TIME, temp.U_NAME, query.from_user.id, REFERAL_COUNT),
             reply_markup=reply_markup,
@@ -1517,6 +1536,15 @@ async def cb_handler(client: Client, query: CallbackQuery):
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
+            text="𝑳𝒐𝒅𝒊𝒏𝒈...."
+        )
+        await query.message.edit_text(
+            text="𝑳𝒐𝒅𝒊𝒏𝒈......"
+        )
+        await query.message.edit_text(
+            text="𝑫𝒐𝒏𝒆 ✅️"
+        )
+        await query.message.edit_text(
             text=script.BRONZE_TXT.format(query.from_user.mention),
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
@@ -1529,6 +1557,15 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('⇋ ʙᴀᴄᴋ ⇋', callback_data='money_bot')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text="𝑳𝒐𝒅𝒊𝒏𝒈...."
+        )
+        await query.message.edit_text(
+            text="𝑳𝒐𝒅𝒊𝒏𝒈......"
+        )
+        await query.message.edit_text(
+            text="𝑫𝒐𝒏𝒆 ✅️"
+        )
         await query.message.edit_text(
             text=script.SILVER_TXT.format(query.from_user.mention),
             reply_markup=reply_markup,
@@ -1571,6 +1608,15 @@ async def cb_handler(client: Client, query: CallbackQuery):
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
+            text="𝑳𝒐𝒅𝒊𝒏𝒈...."
+        )
+        await query.message.edit_text(
+            text="𝑳𝒐𝒅𝒊𝒏𝒈......"
+        )
+        await query.message.edit_text(
+            text="𝑫𝒐𝒏𝒆 ✅️"
+        )
+        await query.message.edit_text(
             text=script.PURCHASE_TXT.format(query.from_user.mention),
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
@@ -1583,6 +1629,15 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('⇋ ʙᴀᴄᴋ ⇋', callback_data='purchase')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text="𝑳𝒐𝒅𝒊𝒏𝒈...."
+        )
+        await query.message.edit_text(
+            text="𝑳𝒐𝒅𝒊𝒏𝒈......"
+        )
+        await query.message.edit_text(
+            text="𝑫𝒐𝒏𝒆 ✅️"
+        )
         await query.message.edit_text(
             text=script.UPI_TXT.format(query.from_user.mention),
             reply_markup=reply_markup,
@@ -1597,6 +1652,15 @@ async def cb_handler(client: Client, query: CallbackQuery):
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
+            text="𝑳𝒐𝒅𝒊𝒏𝒈...."
+        )
+        await query.message.edit_text(
+            text="𝑳𝒐𝒅𝒊𝒏𝒈......"
+        )
+        await query.message.edit_text(
+            text="𝑫𝒐𝒏𝒆 ✅️"
+        )
+        await query.message.edit_text(
             text=script.QR_TXT.format(query.from_user.mention),
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
@@ -1609,6 +1673,15 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('❌ ᴄʟᴏꜱᴇ ❌', callback_data='close_data')
         ]]
         reply_markup = InlineKeyboardMarkup(btn)
+        await query.message.edit_text(
+            text="𝑳𝒐𝒅𝒊𝒏𝒈...."
+        )
+        await query.message.edit_text(
+            text="𝑳𝒐𝒅𝒊𝒏𝒈......"
+        )
+        await query.message.edit_text(
+            text="𝑫𝒐𝒏𝒆 ✅️"
+        )
         await query.message.reply_photo(
             photo="https://telegra.ph/file/5309e51e633e8f4beac0c.jpg",
             caption=script.PREPLANS_TXT.format(query.from_user.mention),
