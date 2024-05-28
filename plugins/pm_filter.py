@@ -1502,11 +1502,6 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('⇋ ʙᴀᴄᴋ', callback_data='money_bot'),
             InlineKeyboardButton('Invite 📲', url=f'https://t.me/share/url?url=https://telegram.me/{temp.U_NAME}?start=Deendayal-{query.from_user.id}')
         ]]
-        await client.edit_message_media(
-                query.message.chat.id, 
-                query.message.id, 
-                InputMediaPhoto("https://telegra.ph/file/b2ab60c80ff67f6af0f6e.jpg")
-        )
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
             text=script.OGGY_TXT.format(REFERAL_PREMEIUM_TIME, temp.U_NAME, query.from_user.id, REFERAL_COUNT),
