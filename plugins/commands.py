@@ -27,7 +27,7 @@ BATCH_FILES = {}
 async def start(client, message):
     if message.chat.type in [enums.ChatType.GROUP, enums.ChatType.SUPERGROUP]:
         buttons = [[
-                    InlineKeyboardButton('💰 ᴇᴀʀɴ ᴍᴏɴᴇʏ ᴡɪᴛʜ ᴍᴇ 💰', callback_data="shortlink_info")
+                    InlineKeyboardButton('ᴇᴀʀɴ ᴍᴏɴᴇʏ ᴡɪᴛʜ ᴍᴇ 💰', callback_data="shortlink_info")
                   ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply(script.GSTART_TXT.format(message.from_user.mention if message.from_user else message.chat.title, temp.U_NAME, temp.B_NAME), reply_markup=reply_markup, disable_web_page_preview=True)
@@ -47,7 +47,7 @@ async def start(client, message):
                     InlineKeyboardButton('⚙️ ꜰᴇᴀᴛᴜʀᴇꜱ', callback_data= "help"),
                     InlineKeyboardButton('🪙 ᴘʀᴇᴍɪᴜᴍ', callback_data='money_bot')
                 ],[
-                    InlineKeyboardButton('💰 ᴇᴀʀɴ ᴍᴏɴᴇʏ ᴡɪᴛʜ ᴍᴇ 💰', callback_data="shortlink_info")
+                    InlineKeyboardButton('ᴇᴀʀɴ ᴍᴏɴᴇʏ ᴡɪᴛʜ ᴍᴇ 💰', callback_data="shortlink_info")
                   ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         current_time = datetime.now(pytz.timezone(TIMEZONE))
@@ -112,7 +112,7 @@ async def start(client, message):
                     InlineKeyboardButton('⚙️ ꜰᴇᴀᴛᴜʀᴇꜱ', callback_data= "help"),
                     InlineKeyboardButton('🪙 ᴘʀᴇᴍɪᴜᴍ', callback_data='money_bot')
                 ],[
-                    InlineKeyboardButton('💰 ᴇᴀʀɴ ᴍᴏɴᴇʏ ᴡɪᴛʜ ᴍᴇ 💰', callback_data="shortlink_info")
+                    InlineKeyboardButton('Eᴀʀɴ ᴍᴏɴᴇʏ ᴡɪᴛʜ ᴍᴇ 💰', callback_data="shortlink_info")
                   ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         current_time = datetime.now(pytz.timezone(TIMEZONE))
