@@ -1432,7 +1432,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 InlineKeyboardButton('« ᴀᴅᴅ ᴍᴇ ᴛᴏ yᴏᴜʀ ɢʀᴏᴜᴩꜱ »', url=f'http://telegram.me/{temp.U_NAME}?startgroup=true')
                 ],[
                     InlineKeyboardButton('⚙️ ꜰᴇᴀᴛᴜʀᴇꜱ', callback_data="help"),
-                    InlineKeyboardButton('🪙 ᴘʀᴇᴍɪᴜᴍ', callback_data='money_bot')
+                    InlineKeyboardButton('🪙 ғʀᴇᴇ ᴘʀᴇᴍɪᴜᴍ', callback_data='money_bot')
                 ],[
                     InlineKeyboardButton('💰 ᴇᴀʀɴ ᴍᴏɴᴇʏ ᴡɪᴛʜ ᴍᴇ 💰', callback_data="shortlink_info")
                   ]]
