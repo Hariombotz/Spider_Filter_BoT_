@@ -1426,18 +1426,19 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "sinfo":
         await query.answer(text=script.SINFO, show_alert=True)
         
-    elif query.data == "start": 
-            buttons = [[
-                InlineKeyboardButton('« ᴀᴅᴅ ᴍᴇ ᴛᴏ yᴏᴜʀ ɢʀᴏᴜᴩꜱ »', url=f'http://telegram.me/{temp.U_NAME}?startgroup=true')
+    elif query.data == "start":
+        buttons = [[
+                    InlineKeyboardButton('⤬ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ⤬', url=f'http://telegram.me/{temp.U_NAME}?startgroup=true')
                 ],[
                     InlineKeyboardButton('⚙️ ꜰᴇᴀᴛᴜʀᴇꜱ', callback_data="help"),
                     InlineKeyboardButton('🪙 ғʀᴇᴇ ᴘʀᴇᴍɪᴜᴍ', callback_data='money_bot')
                 ],[
                     InlineKeyboardButton('💰 ᴇᴀʀɴ ᴍᴏɴᴇʏ ᴡɪᴛʜ ᴍᴇ 💰', callback_data="shortlink_info")
                   ]]
+        
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
-            text="𝑳𝒐𝒅𝒊𝒏𝒈...."
+            text="𝑾𝒂𝒊𝒕...."
         )
         await query.message.edit_text(
             text="𝑳𝒐𝒅𝒊𝒏𝒈......"
