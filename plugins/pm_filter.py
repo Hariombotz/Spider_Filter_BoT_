@@ -1723,14 +1723,14 @@ async def cb_handler(client: Client, query: CallbackQuery):
     
     elif query.data == "help":
         buttons = [[
-            InlineKeyboardButton('Rᴇᴘᴏ Sᴇᴀʀᴄʜ', callback_data='filters'),
-            InlineKeyboardButton('Sᴏɴɢ ᴅᴏᴡɴʟᴏᴀᴅ', callback_data='store_file')
+            InlineKeyboardButton('Rᴇᴘᴏ Sᴇᴀʀᴄʜ 🔎', callback_data='filters'),
+            InlineKeyboardButton('Sᴏɴɢ ᴅᴏᴡɴʟᴏᴀᴅ 🎵', callback_data='store_file')
         ], [
-            InlineKeyboardButton('Lʏʀɪᴄꜱ Dᴏᴡɴʟᴏᴀᴅ', callback_data='coct'),
-            InlineKeyboardButton('Gᴇɴ Pᴀꜱꜱᴡᴏʀᴅ', callback_data='extra')
+            InlineKeyboardButton('Lʏʀɪᴄꜱ Dᴏᴡɴʟᴏᴀᴅ 📄', callback_data='coct'),
+            InlineKeyboardButton('Gᴇɴ Pᴀꜱꜱᴡᴏʀᴅ 🔐', callback_data='extra')
         ], [
             InlineKeyboardButton('⟸ Bᴀᴄᴋ', callback_data='start'),
-            InlineKeyboardButton('Sᴛᴀᴛᴜs', callback_data='stats')
+            InlineKeyboardButton('Sᴛᴀᴛᴜs ⚒️', callback_data='stats')
         ]]
         
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -1959,7 +1959,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.answer("Fetching MongoDb DataBase")
         buttons = [[
             InlineKeyboardButton('⟸ Bᴀᴄᴋ', callback_data='help'),
-            InlineKeyboardButton('⟲ Rᴇғʀᴇsʜ', callback_data='rfrsh')
+            InlineKeyboardButton('⟲ Rᴇғʀᴇsʜ 🔄', callback_data='rfrsh')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -2090,7 +2090,7 @@ async def auto_filter(client, msg, spoll=False):
             return
         if len(message.text) < 100:
             search = message.text
-            m=await message.reply_text(f"<b><i> 𝖲𝖾𝖺𝗋𝖼𝗁𝗂𝗇𝗀 𝖿𝗈𝗋 '{search}' 🔎</i></b>")
+            m=await message.reply_text(f"<b><i> राधे राधे ❤️ '{search}' 🔎 मूवी को सर्च किया जा रहा है </i></b>")
             search = search.lower()
             find = search.split(" ")
             search = ""
@@ -2121,7 +2121,7 @@ async def auto_filter(client, msg, spoll=False):
     else:
         message = msg.message.reply_to_message  # msg will be callback query
         search, files, offset, total_results = spoll
-        m=await message.reply_text(f"<b><i> 𝖲𝖾𝖺𝗋𝖼𝗁𝗂𝗇𝗀 𝖿𝗈𝗋 '{search}' 🔎</i></b>")
+        m=await message.reply_text(f"<b><i> राधे राधे ❤️ '{search}' 🔎 मूवी को सर्च किया जा रहा है </i></b>")
         settings = await get_settings(message.chat.id)
         await msg.message.delete()
     # if 'is_shortlink' in settings.keys():
