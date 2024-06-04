@@ -125,14 +125,14 @@ async def start(client, message):
             gtxt = "ɢᴏᴏᴅ ᴇᴠᴇɴɪɴɢ 👋"
         else:
             gtxt = "ɢᴏᴏᴅ ɴɪɢʜᴛ 👋"
-        m=await message.reply_text("<i>ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ <b>ᴛʜᴇ ᴍᴏᴠɪᴇ ᴘʀᴏᴠɪᴅᴇʀ ʙᴏᴛ</b>.\nʜᴏᴘᴇ ʏᴏᴜ'ʀᴇ ᴅᴏɪɴɢ ᴡᴇʟʟ...</i>")
+        m=await message.reply_text("<i>𝑾𝒆𝒍𝒄𝒐𝒎𝒆 𝑻𝒐 <b>𝑻𝒉𝒆 𝑨𝒏𝒂𝒚𝒂 𝑩𝒐𝒕</b>.\𝑯𝒐𝒑𝒆 𝒀𝒐𝒖'𝒓𝒆 𝑫𝒐𝒊𝒏𝒈 𝑾𝒆𝒍𝒍...</i>")
         await asyncio.sleep(0.4)
         await m.edit_text("👀")
         await asyncio.sleep(0.5)
         await m.edit_text("⚡")
         await asyncio.sleep(0.5)
-        await m.edit_text("<b><i>ꜱᴛᴀʀᴛɪɴɢ...</i></b>")
-        await asyncio.sleep(0.4)
+        await m.edit_text("<b><i>जय श्री राम ❤️</i></b>")
+        await asyncio.sleep(0.8)
         await m.delete()        
         m=await message.reply_sticker("CAACAgUAAxkBAAIbZmZJ_IwrDGtEVaEMEzkXvuEWKohXAAJiAQACA0S4VJX6Rd-kZjOfNAQ") 
         await asyncio.sleep(1)
