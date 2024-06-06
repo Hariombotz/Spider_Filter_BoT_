@@ -17,7 +17,7 @@ from typing import Union, Optional, AsyncGenerator
 from pyrogram import types
 from Script import script 
 from datetime import date, datetime 
-import pytz, time
+import pytz
 from aiohttp import web
 from plugins import web_server
 
@@ -36,8 +36,6 @@ class Bot(Client):
 
     async def start(self):
         b_users, b_chats = await db.get_banned()
-        global time 
-        temp.START_TIME = time.time()
         temp.BANNED_USERS = b_users
         temp.BANNED_CHATS = b_chats
         await super().start()
