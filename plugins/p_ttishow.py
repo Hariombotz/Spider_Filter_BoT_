@@ -172,7 +172,8 @@ async def get_ststs(bot, message):
     free = 536870912 - size
     size = get_size(size)
     free = get_size(free)
-    await rju.edit(script.STATUS_TXT.format(files, total_users, totl_chats, size, free))
+    uptime = get_readable_time(time_now() - temp.START_TIME)
+    await rju.edit(script.STATUS_TXT.format(files, total_users, totl_chats, size, free, uptime))
 
 
 @Client.on_message(filters.command('invite') & filters.user(ADMINS))
