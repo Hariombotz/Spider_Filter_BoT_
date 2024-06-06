@@ -12,7 +12,7 @@ from pyrogram.raw.all import layer
 from database.ia_filterdb import Media
 from database.users_chats_db import db
 from info import SESSION, API_ID, API_HASH, BOT_TOKEN, LOG_STR, LOG_CHANNEL, PORT
-from utils import temp
+from utils import temp, get_readable_time
 from typing import Union, Optional, AsyncGenerator
 from pyrogram import types
 from Script import script 
