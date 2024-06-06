@@ -5,7 +5,7 @@ import ast
 import math
 import random
 import pytz
-from datetime import datetime, timedelta, date, time
+from datetime import datetime, timedelta, date, time_now
 lock = asyncio.Lock()
 
 from pyrogram.errors.exceptions.bad_request_400 import MediaEmpty, PhotoInvalidDimensions, WebpageMediaEmpty
