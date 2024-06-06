@@ -192,8 +192,10 @@ Cᴏᴍᴍᴀɴᴅs Aɴᴅ Usᴀɢᴇ:
     STATUS_TXT = """<b>📑 ғɪʟᴇs sᴀᴠᴇᴅ: <code>{}</code>
 👤 ᴛᴏᴛᴀʟ ᴜsᴇʀs: <code>{}</code>
 ♻️ ᴛᴏᴛᴀʟ ᴄʜᴀᴛs: <code>{}</code>
+🤑 ᴘʀᴇᴍɪᴜᴍ ᴜꜱᴇʀꜱ: <code>{}</code>
 🗃️ ᴜsᴇᴅ sᴛᴏʀᴀɢᴇ: <code>{}</code> 𝙼𝚒𝙱
-🆓 ғʀᴇᴇ sᴛᴏʀᴀɢᴇ: <code>{}</code> 𝙼𝚒𝙱</b>"""
+🆓 ғʀᴇᴇ sᴛᴏʀᴀɢᴇ: <code>{}</code> 𝙼𝚒𝙱
+🚀 ʙᴏᴛ ᴜᴘᴛɪᴍᴇ: <code>{}</code></b>"""
 
     LOG_TEXT_G = """#NewGroup
 Aɴᴀʏᴀ Aʟɪᴠᴇ Iɴ Gʀᴏᴜᴘ = {}(<code>{}</code>)
