@@ -7,7 +7,7 @@ from database.ia_filterdb import Media
 from utils import get_size, temp, get_settings, get_readable_time
 from Script import script
 from pyrogram.errors import ChatAdminRequired
-import asyncio 
+import asyncio, time_now
 
 """-----------------------------------------https://t.me/GetTGLink/4179 --------------------------------------"""
 
