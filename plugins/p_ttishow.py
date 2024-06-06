@@ -8,7 +8,7 @@ from utils import get_size, temp, get_settings, get_readable_time
 from Script import script
 from pyrogram.errors import ChatAdminRequired
 import asyncio
-import time_now
+import time
 
 """-----------------------------------------https://t.me/GetTGLink/4179 --------------------------------------"""
 
