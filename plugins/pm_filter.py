@@ -4,8 +4,9 @@ import re
 import ast
 import math
 import random
+import time_now
 import pytz
-from datetime import datetime, timedelta, date, time_now
+from datetime import datetime, timedelta, date, time
 lock = asyncio.Lock()
 
 from pyrogram.errors.exceptions.bad_request_400 import MediaEmpty, PhotoInvalidDimensions, WebpageMediaEmpty
