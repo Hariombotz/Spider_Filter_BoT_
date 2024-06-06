@@ -193,8 +193,7 @@ Cᴏᴍᴍᴀɴᴅs Aɴᴅ Usᴀɢᴇ:
 👤 ᴛᴏᴛᴀʟ ᴜsᴇʀs: <code>{}</code>
 ♻️ ᴛᴏᴛᴀʟ ᴄʜᴀᴛs: <code>{}</code>
 🗃️ ᴜsᴇᴅ sᴛᴏʀᴀɢᴇ: <code>{}</code> 𝙼𝚒𝙱
-🆓 ғʀᴇᴇ sᴛᴏʀᴀɢᴇ: <code>{}</code> 𝙼𝚒𝙱
-🚀 ʙᴏᴛ ᴜᴘᴛɪᴍᴇ: <code>{}</code></b>"""
+🆓 ғʀᴇᴇ sᴛᴏʀᴀɢᴇ: <code>{}</code> 𝙼𝚒𝙱</b>"""
 
     LOG_TEXT_G = """#NewGroup
 Aɴᴀʏᴀ Aʟɪᴠᴇ Iɴ Gʀᴏᴜᴘ = {}(<code>{}</code>)
