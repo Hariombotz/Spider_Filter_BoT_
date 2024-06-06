@@ -1952,7 +1952,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         free = get_size(free)
         uptime = get_readable_time(time_now() - temp.START_TIME)
         await query.message.edit_text(
-            text=script.STATUS_TXT.format(total, users, chats, monsize, free),
+            text=script.STATUS_TXT.format(total, users, chats, monsize, free, uptime),
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
         )
@@ -1981,7 +1981,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         free = get_size(free)
         uptime = get_readable_time(time_now() - temp.START_TIME)
         await query.message.edit_text(
-            text=script.STATUS_TXT.format(total, users, chats, monsize, free),
+            text=script.STATUS_TXT.format(total, users, chats, monsize, free, uptime),
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
         )
