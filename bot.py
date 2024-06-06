@@ -36,6 +36,7 @@ class Bot(Client):
 
     async def start(self):
         b_users, b_chats = await db.get_banned()
+        temp.START_TIME = time.time()
         temp.BANNED_USERS = b_users
         temp.BANNED_CHATS = b_chats
         await super().start()
