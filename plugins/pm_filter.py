@@ -1951,7 +1951,6 @@ async def cb_handler(client: Client, query: CallbackQuery):
         monsize = get_size(monsize)
         free = get_size(free)
         uptime = get_readable_time(time_now() - temp.START_TIME)
-        premium = await db.all_premium_users()
         await query.message.edit_text(
             text=script.STATUS_TXT.format(total, users, chats, monsize, free),
             reply_markup=reply_markup,
@@ -1981,7 +1980,6 @@ async def cb_handler(client: Client, query: CallbackQuery):
         monsize = get_size(monsize)
         free = get_size(free)
         uptime = get_readable_time(time_now() - temp.START_TIME)
-        premium = await db.all_premium_users()
         await query.message.edit_text(
             text=script.STATUS_TXT.format(total, users, chats, monsize, free),
             reply_markup=reply_markup,
