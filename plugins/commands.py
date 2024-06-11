@@ -50,16 +50,6 @@ async def start(client, message):
                     InlineKeyboardButton('ᴇᴀʀɴ ᴍᴏɴᴇʏ ᴡɪᴛʜ ᴍᴇ 💰', callback_data="shortlink_info")
                   ]]
         reply_markup = InlineKeyboardMarkup(buttons)
-        current_time = datetime.now(pytz.timezone(TIMEZONE))
-        curr_time = current_time.hour        
-        if curr_time < 12:
-            gtxt = "जय श्री राम ❤️" 
-        elif curr_time < 17:
-            gtxt = "हर हर महादेव ❤️" 
-        elif curr_time < 21:
-            gtxt = "जय श्री श्याम ❤️"
-        else:
-            gtxt = "राधे राधे ❤️"
         m=await message.reply_text("<i>ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ <b>ᴛʜᴇ ᴀɴᴀʏᴀ ʙᴏᴛ</b>.\nʜᴏᴘᴇ ʏᴏᴜ'ʀᴇ ᴅᴏɪɴɢ ᴡᴇʟʟ...</i>")
         await asyncio.sleep(0.4)
         await m.edit_text("👀")
@@ -115,16 +105,6 @@ async def start(client, message):
                     InlineKeyboardButton('Eᴀʀɴ ᴍᴏɴᴇʏ ᴡɪᴛʜ ᴍᴇ 💰', callback_data="shortlink_info")
                   ]]
         reply_markup = InlineKeyboardMarkup(buttons)
-        current_time = datetime.now(pytz.timezone(TIMEZONE))
-        curr_time = current_time.hour        
-        if curr_time < 12:
-            gtxt = "जय श्री राम ❤️" 
-        elif curr_time < 17:
-            gtxt = "हर हर महादेव ❤️" 
-        elif curr_time < 21:
-            gtxt = "जय श्री श्याम"
-        else:
-            gtxt = "राधे राधे ❤️"
         m=await message.reply_text("<i>𝑾𝒆𝒍𝒄𝒐𝒎𝒆 𝑻𝒐 <b>ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ <b>ᴛʜᴇ ᴀɴᴀʏᴀ ʙᴏᴛ</b>.\nʜᴏᴘᴇ ʏᴏᴜ'ʀᴇ ᴅᴏɪɴɢ ᴡᴇʟʟ...</i>")
         await asyncio.sleep(0.4)
         await m.edit_text("👀")
@@ -137,7 +117,7 @@ async def start(client, message):
         m=await message.reply_sticker("CAACAgUAAxkBAAIbZmZJ_IwrDGtEVaEMEzkXvuEWKohXAAJiAQACA0S4VJX6Rd-kZjOfNAQ") 
         await asyncio.sleep(1)
         await m.delete()
-        await message.reply_text(script.START_TXT.format(message.from_user.mention, gtxt, message.from_user.id, temp.U_NAME, temp.B_NAME),
+        await message.reply_text(script.START_TXT.format(message.from_user.mention, message.from_user.id, temp.U_NAME, temp.B_NAME),
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
         )
