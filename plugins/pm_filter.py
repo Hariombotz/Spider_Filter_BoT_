@@ -76,7 +76,8 @@ async def pm_text(bot, message):
     if content.startswith("/") or content.startswith("#"): return  # ignore commands and hashtags
     if user_id in ADMINS: return # ignore admins
     await message.reply_text(
-         text=f"<b>ʜᴇʏ {user} ꜱᴏʀʀʏ ɪ ᴄᴀɴ'ᴛ ᴡᴏʀᴋ ɪɴ ᴘᴍ</b>"
+         text=f"<b>ʜᴇʏ {user} माफ़ी चाहती हुं में आपको यहाँ पर मूवी नहीं दे सकती हु कृपया कर ग्रुप में सर्च करे</b>",
+         reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("📝 ʀᴇǫᴜᴇsᴛ ʜᴇʀᴇ ", url=f"telegram.me/hb_moive")]])
     )
     await bot.send_message(
         chat_id=LOG_CHANNEL,
