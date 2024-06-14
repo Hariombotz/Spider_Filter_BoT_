@@ -61,7 +61,7 @@ async def stats(bot, update):
 
 @Client.on_message(filters.command("restart") & filters.user(ADMINS))
 async def stop_button(bot, message):
-    msg = await bot.send_message(text="**Bᴏᴛ Iꜱ Rᴇꜱᴛᴀʀᴛ ... 🔄**", chat_id=message.chat.id)       
+    msg = await bot.send_message(text="**🔄 𝑷𝒓𝒐𝒄𝒆𝒔𝒔𝒆𝒔 𝑺𝒕𝒐𝒑𝒆𝒅. 𝑩𝒐𝒕 𝑰𝒔 𝑹𝒆𝒔𝒕𝒂𝒓𝒕𝒊𝒏𝒈....**", chat_id=message.chat.id)       
     await asyncio.sleep(3)
-    await msg.edit("**Bᴏᴛ Rᴇꜱᴛᴀʀᴛ Sᴜᴄᴄᴇꜱꜱғᴜʟʟʏ ! Rᴇᴀᴅʏ Tᴏ Mᴏᴠᴇ Oɴ 🧑‍🦯**")
+    await msg.edit("**✅️ 𝑩𝒐𝒕 𝑰𝒔 𝑹𝒆𝒔𝒕𝒂𝒓𝒕𝒆𝒅. 𝑵𝒐𝒘 𝒀𝒐𝒖 𝑪𝒂𝒏 𝑼𝒔𝒆 𝑴𝒆**")
     os.execl(sys.executable, sys.executable, *sys.argv)
