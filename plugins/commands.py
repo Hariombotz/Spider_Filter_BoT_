@@ -56,7 +56,7 @@ async def start(client, message):
         await asyncio.sleep(0.5)
         await m.edit_text("⚡")
         await asyncio.sleep(0.5)
-        await m.edit_text("<b><i>जय श्री राम ❤️</i></b>")
+        await m.edit_text("<b><i>जय श्री कृष्ण ❤️</i></b>")
         await asyncio.sleep(0.6)
         await m.delete()        
         m=await message.reply_sticker("CAACAgUAAxkBAAIbZmZJ_IwrDGtEVaEMEzkXvuEWKohXAAJiAQACA0S4VJX6Rd-kZjOfNAQ") 
