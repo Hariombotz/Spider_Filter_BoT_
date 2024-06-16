@@ -13,7 +13,7 @@ from Script import script
 import pyrogram
 from database.connections_mdb import active_connection, all_connections, delete_connection, if_active, make_active, \
     make_inactive
-from info import ADMINS, AUTH_CHANNEL, AUTH_USERS, SUPPORT_CHAT_ID, CUSTOM_FILE_CAPTION, MSG_ALRT, PICS, AUTH_GROUPS, P_TTI_SHOW_OFF, GRP_LNK, CHNL_LNK, NOR_IMG, LOG_CHANNEL, SPELL_IMG, MAX_B_TN, IMDB, \
+from info import ADMINS, AUTH_CHANNEL, AUTH_USERS, SUPPORT_CHAT_ID, CUSTOM_FILE_CAPTION, MSG_ALRT, REACTIONS, PICS, AUTH_GROUPS, P_TTI_SHOW_OFF, GRP_LNK, CHNL_LNK, NOR_IMG, LOG_CHANNEL, SPELL_IMG, MAX_B_TN, IMDB, \
     SINGLE_BUTTON, SPELL_CHECK_REPLY, IMDB_TEMPLATE, NO_RESULTS_MSG, TUTORIAL, REQST_CHANNEL, IS_TUTORIAL, LANGUAGES, SEASONS, SUPPORT_CHAT, PREMIUM_USER, G_FILTER, PMFILTER, PREMIUM_AND_REFERAL_MODE, REFERAL_PREMEIUM_TIME, REFERAL_COUNT
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton, CallbackQuery, InputMediaPhoto
 from pyrogram import Client, filters, enums
@@ -47,7 +47,8 @@ SPELL_CHECK = {}
 
 @Client.on_message(filters.group & filters.text & filters.incoming)
 async def give_filter(client, message):
-    if message.chat.id != SUPPORT_CHAT_ID:
+    await message.react(emoji=random.choice(REACTIONS))
+        if message.chat.id != SUPPORT_CHAT_ID:
         manual = await manual_filters(client, message)
         if manual == False:
             settings = await get_settings(message.chat.id)
@@ -2391,14 +2392,14 @@ async def advantage_spell_chok(client, msg):
     )
     try:
         if settings['auto_delete']:
-            await asyncio.sleep(600)
+            await asyncio.sleep(60)
             await spell_check_del.delete()
     except KeyError:
             grpid = await active_connection(str(msg.from_user.id))
             await save_group_settings(grpid, 'auto_delete', True)
             settings = await get_settings(msg.chat.id)
             if settings['auto_delete']:
-                await asyncio.sleep(600)
+                await asyncio.sleep(60)
                 await spell_check_del.delete()
 
 async def manual_filters(client, message, text=False):
