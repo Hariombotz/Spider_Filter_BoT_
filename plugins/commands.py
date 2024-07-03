@@ -78,15 +78,22 @@ async def start(client, message):
         except ChatAdminRequired:
             logger.error("Make sure Bot is admin in Forcesub channel")
             return
-        btn = [
-            [
-                InlineKeyboardButton(
-                    "❆ Jᴏɪɴ Oᴜʀ Cʜᴀɴɴᴇʟ ❆", url=invite_link.invite_link
-                )
-            ]
-        ]
-
         if message.command[1] != "subscribe":
+            kk, file_id = message.command[1].split("_", 1)
+            pre = 'checksubp' if kk == 'filep' else 'checksub' 
+            btn = [[InlineKeyboardButton("Join Group ", url=invite_link.invite_link),
+                    InlineKeyboardButton("Try Again ", callback_data=f"{pre}#{file_id}")]]
+            sent_message = await client.send_message(
+                chat_id=message.from_user.id,
+                text="👇 CLICK REQUEST TO JOIN CHANNEL & CLICK TRY AGAIN 👇"),
+                reply_markup=InlineKeyboardMarkup(btn),
+                parse_mode=enums.ParseMode.HTML,
+                disable_web_page_preview=True
+            )
+            sent_messages[message.id] = sent_message.id
+            await message.delete()
+            return
+    if len(message.command) == 2 and message.command[1] in ["subscribe", "error", "okay", "help"]:
             try:
                 kk, file_id = message.command[1].split("_", 1)
                 pre = 'checksubp' if kk == 'filep' else 'checksub' 
@@ -407,6 +414,16 @@ async def start(client, message):
                     ]
                 )
             )
+        await message.reply_chat_action(enums.ChatAction.TYPING)
+        f1 = await message.reply_text(f"<b>Fɪʟᴇ Dᴇᴛᴇᴄᴛ..\n\n▰▱▱▱</b>") 
+        await asyncio.sleep(0.5)
+        f2 = await f1.edit(f"<b>Fɪʟᴇ Cʜᴇᴄᴋɪɴɢ..\n\n▰▰▱▱</b>")
+        await asyncio.sleep(0.5)
+        f3 = await f2.edit(f"<b>Fɪʟᴇ Sᴇᴄᴜʀᴇ..\n\n▰▰▰▱</b>")
+        await asyncio.sleep(0.5)
+        f4 = await f3.edit(f"<b>Fɪʟᴇ Uᴘʟᴏᴀᴅɪɴɢ...\n\n▰▰▰▰</b>")
+        await asyncio.sleep(0.5)
+        await f4.delete()
             filesarr.append(msg)
         k = await client.send_message(chat_id = message.from_user.id, text=f"<b>❗️ <u>ɪᴍᴘᴏʀᴛᴀɴᴛ</u> ❗️</b>\n\n<b>ᴛʜᴇꜱᴇ ᴠɪᴅᴇᴏꜱ / ꜰɪʟᴇꜱ ᴡɪʟʟ ʙᴇ ᴅᴇʟᴇᴛᴇᴅ ɪɴ</b> <b><u>10 ᴍɪɴᴜᴛᴇꜱ</u> </b><b>(ᴅᴜᴇ ᴛᴏ ᴄᴏᴘʏʀɪɢʜᴛ ɪꜱꜱᴜᴇꜱ).</b>\n\n<b><i>📌 ᴘʟᴇᴀꜱᴇ ꜰᴏʀᴡᴀʀᴅ ᴛʜᴇꜱᴇ ᴠɪᴅᴇᴏꜱ / ꜰɪʟᴇꜱ ᴛᴏ ꜱᴏᴍᴇᴡʜᴇʀᴇ ᴇʟꜱᴇ ᴀɴᴅ ꜱᴛᴀʀᴛ ᴅᴏᴡɴʟᴏᴀᴅɪɴɢ ᴛʜᴇʀᴇ.</i></b>")
         await asyncio.sleep(600)
