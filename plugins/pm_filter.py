@@ -1502,7 +1502,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "free":
         buttons = [[
             InlineKeyboardButton('⇋ ʙᴀᴄᴋ', callback_data='money_bot'),
-            InlineKeyboardButton('Invite 📲', url=f'https://t.me/share/url?url=https://telegram.me/{temp.U_NAME}?start=Deendayal-{query.from_user.id}')
+            InlineKeyboardButton('Invite 📲', url=f'https://t.me/share/url?url=https://telegram.me/{temp.U_NAME}?start=start-{query.from_user.id}')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
