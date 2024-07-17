@@ -199,7 +199,6 @@ Cᴏᴍᴍᴀɴᴅs Aɴᴅ Usᴀɢᴇ:
 
     LOG_TEXT_G = """#NewGroup {}
 Group name - {}(<code>{}</code>)
-Id - <code>{}</code>
 Total members - <code>{}</code>
 User - {}"""
 
