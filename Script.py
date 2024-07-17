@@ -200,9 +200,7 @@ Cᴏᴍᴍᴀɴᴅs Aɴᴅ Usᴀɢᴇ:
     LOG_TEXT_G = """#NewGroup {}
 Group name - {}
 Id - <code>{}</code>
-Group username - @{}
 Group link - {}
-Total members - <code>{}</code>
 User - {}"""
 
     LOG_TEXT_P = """#NewUser {}
