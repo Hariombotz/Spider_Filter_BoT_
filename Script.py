@@ -197,12 +197,12 @@ Cᴏᴍᴍᴀɴᴅs Aɴᴅ Usᴀɢᴇ:
 🗃️ ᴜsᴇᴅ sᴛᴏʀᴀɢᴇ: <code>{}</code> 𝙼𝚒𝙱
 🆓 ғʀᴇᴇ sᴛᴏʀᴀɢᴇ: <code>{}</code> 𝙼𝚒𝙱</b>"""
 
-    LOG_TEXT_G = """#NewGroup {}
-Group name - {}(<code>{}</code>)
-Total members - <code>{}</code>
-User - {}"""
+    LOG_TEXT_G = """#NewGroup
+Aʟɪᴠᴇ Iɴ Gʀᴏᴜᴘ = {}(<code>{}</code>)
+Tᴏᴛᴀʟ Mᴇᴍʙᴇʀs = <code>{}</code>
+Aᴅᴅᴇᴅ Bʏ - {}"""
 
-    LOG_TEXT_P = """#NewUser {}
+    LOG_TEXT_P = """#NewUser
 ≈ ɪᴅ:- <code>{}</code>
 ≈ ɴᴀᴍᴇ:- {}"""
 
