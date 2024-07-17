@@ -198,9 +198,9 @@ Cᴏᴍᴍᴀɴᴅs Aɴᴅ Usᴀɢᴇ:
 🆓 ғʀᴇᴇ sᴛᴏʀᴀɢᴇ: <code>{}</code> 𝙼𝚒𝙱</b>"""
 
     LOG_TEXT_G = """#NewGroup {}
-Group name - {}
+Group name - {}(<code>{}</code>)
 Id - <code>{}</code>
-Group link - {}
+Total members - <code>{}</code>
 User - {}"""
 
     LOG_TEXT_P = """#NewUser {}
