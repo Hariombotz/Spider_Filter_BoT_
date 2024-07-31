@@ -27,3 +27,6 @@ telegraph
 REPO
 asyncio 
 coroutine
+
+fuzzywuzzy
+python-Levenshtein
