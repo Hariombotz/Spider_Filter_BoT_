@@ -49,6 +49,9 @@ SPELL_CHECK = {}
 @Client.on_message(filters.group & filters.text & filters.incoming)
 async def give_filter(client, message):
     await message.react(emoji=random.choice(REACTIONS))
+    ifJoinedFsub = await is_user_fsub(client,message)
+    if ifJoinedFsub == False:
+        return
     if message.chat.id != SUPPORT_CHAT_ID:
         manual = await manual_filters(client, message)
         if manual == False:
@@ -1035,10 +1038,14 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.answer(url=f"https://telegram.me/{temp.U_NAME}?start=file_{file_id}")
     
     elif query.data.startswith("checksub"):
+        ident, file_id , grp_id = query.data.split("#")
+        if grp_id != 'None' or grp_id != '':
+            chat_id = grp_id
+        else:
+            chat_id = query.message.chat.id
         if AUTH_CHANNEL and not await is_req_subscribed(client, query):
             await query.answer("Jᴏɪɴ ᴏᴜʀ Bᴀᴄᴋ-ᴜᴘ ᴄʜᴀɴɴᴇʟ ᴍᴀʜɴ! 😒", show_alert=True)
-            return
-        ident, file_id = query.data.split("#")
+            return        
         files_ = await get_file_details(file_id)
         if not files_:
             return await query.answer('Nᴏ sᴜᴄʜ ғɪʟᴇ ᴇxɪsᴛ.')
