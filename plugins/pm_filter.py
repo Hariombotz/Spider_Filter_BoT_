@@ -45,7 +45,7 @@ BUTTONS2 = {}
 SPELL_CHECK = {}
 # ENABLE_SHORTLINK = ""
 
-@Client.on_message(filters.group | filters.private & filters.text & filters.incoming)
+@Client.on_message(filters.group & filters.text & filters.incoming)
 async def give_filter(client, message):
     await message.react(emoji=random.choice(REACTIONS))
     if message.chat.id != SUPPORT_CHAT_ID:
@@ -77,7 +77,7 @@ async def pm_text(bot, message):
     if content.startswith("/") or content.startswith("#"): return  # ignore commands and hashtags
     if user_id in ADMINS: return # ignore admins
     await message.reply_text(
-         text=f"<b>नमस्ते {user} माफ़ी चाहता हुं में आपको यहाँ पर मूवी नहीं दे सकता हु कृपया कर ग्रुप में सर्च करे</b>",
+         text=f"<b>नमस्ते {user} माफ़ी चाहता हुं में आपको यहाँ पर मूवी नहीं दे सकता हु </b>",
          reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("📝 ʀᴇǫᴜᴇsᴛ ʜᴇʀᴇ ", url=f"https://t.me/+YhP5Bm0JNiw0Njll")]])
     )
     await bot.send_message(
