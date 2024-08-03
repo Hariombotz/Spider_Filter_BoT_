@@ -1622,7 +1622,15 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('⇋ ʙᴀᴄᴋ ⇋', callback_data='purchase')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
-        ) 
+        await query.message.edit_text(
+            text="»"
+        )
+        await query.message.edit_text(
+            text="»»"
+        )
+        await query.message.edit_text(
+            text="»»»"
+        )
         await query.message.edit_text(
             text=script.UPI_TXT.format(query.from_user.mention),
             reply_markup=reply_markup, bro
@@ -1636,6 +1644,14 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('⇋ ʙᴀᴄᴋ ⇋', callback_data='purchase')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text="»"
+        )
+        await query.message.edit_text(
+            text="»»"
+        )
+        await query.message.edit_text(
+            text="»»»"
         )
         await query.message.edit_text(
             text=script.QR_TXT.format(query.from_user.mention),
@@ -1650,6 +1666,14 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('❌ ᴄʟᴏꜱᴇ ❌', callback_data='close_data')
         ]]
         reply_markup = InlineKeyboardMarkup(btn)
+        await query.message.edit_text(
+            text="»"
+        )
+        await query.message.edit_text(
+            text="»»"
+        )
+        await query.message.edit_text(
+            text="»»»"
         )
         await query.message.reply_photo(
             photo="https://telegra.ph/file/5309e51e633e8f4beac0c.jpg",
