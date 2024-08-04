@@ -1,11 +1,11 @@
 <p align="center">
   <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
   
-  <img src="https://telegra.ph/file/79f803e33a91f2c985a05.jpg" alt="Anaya-filter-Bot Logo">
+  <img src="https://telegra.ph/file/ba61ecf0433cce8b317fa.jpg" alt="Spider-filter-Bot Logo">
   <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 </p>
 <h1 align="center">
-  ANAYA-FILTER-BOT
+  𝑺𝒑𝒊𝒅𝒆𝒓 𝑭𝒊𝒍𝒕𝒆𝒓 𝑩𝒐𝒕
 </h1>
 
 ![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=𝑊𝑒𝑙𝑐𝑜𝑚𝑒+𝑇𝑜+HB+Botz;𝐴+𝑠𝑖𝑚𝑝𝑙𝑒+𝑎𝑛𝑑+𝑝𝑜𝑤𝑒𝑟𝑓𝑢𝑙+𝐵𝑜𝑡;𝐼𝑛𝑑𝑒𝑥𝑒𝑠+𝐹𝑖𝑙𝑒𝑠+𝑎𝑏𝑜𝑣𝑒+2𝐺𝐵;𝑆𝑜𝑛𝑔+𝐷𝑜𝑤𝑛𝑙𝑜𝑎𝑑+𝐹𝑒𝑎𝑡𝑢𝑟𝑒𝑠;𝑃𝑟𝑒𝑚𝑖𝑢𝑚+𝑓𝑒𝑎𝑡𝑢𝑟𝑒;𝑅𝑒𝑝𝑜+𝑠𝑒𝑎𝑟𝑐ℎ+𝑓𝑒𝑎𝑡𝑢𝑟𝑒;𝐿𝑦𝑟𝑖𝑐𝑠+𝐷𝑜𝑤𝑛𝑙𝑜𝑎𝑑+𝑓𝑒𝑎𝑡𝑢𝑟𝑒;𝑃𝑎𝑠𝑠𝑤𝑜𝑟𝑑+𝐺𝑒𝑛𝑒𝑟𝑎𝑡𝑒+𝑓𝑒𝑎𝑡𝑢𝑟𝑒;𝐴+𝐵𝑜𝑡+𝑤𝑖𝑡ℎ+𝑑𝑜𝑢𝑏𝑙𝑒+𝑏𝑢𝑡𝑡𝑜𝑛;𝑆𝑡𝑎𝑟𝑡+𝑚𝑒𝑠𝑠𝑎𝑔𝑒+𝑤𝑖𝑡ℎ+𝑝𝑖𝑐;𝐴𝑛𝑑+𝑚𝑜𝑟𝑒+𝑓𝑒𝑎𝑡𝑢𝑟𝑒𝑠)
