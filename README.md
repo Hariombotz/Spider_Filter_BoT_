@@ -119,7 +119,7 @@
 
 ## Deployment Method
 
-### Click [Here To Deploy](https://github.com/Hariombotz/Spider_Filter_BoT_/blob/main/Readme/DEPLOYMENT.md) for your low efforts.
+* Click [Here To Deploy](https://github.com/Hariombotz/Spider_Filter_BoT_/blob/main/Readme/DEPLOYMENT.md) for your low efforts.
 
 ## Credits 
 * [![EvaMaria-Devs](https://img.shields.io/static/v1?label=EvaMaria&message=devs&color=critical)](https://telegram.dog/EvaMariaDevs)
