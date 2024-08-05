@@ -25,7 +25,7 @@
 - [X] 𝐿𝑦𝑟𝑖𝑐𝑠 𝐷𝑜𝑤𝑛𝑙𝑜𝑎𝑑 𝑓𝑒𝑎𝑡𝑢𝑟𝑒
 - [X] 𝑃𝑎𝑠𝑠𝑤𝑜𝑟𝑑 𝐺𝑒𝑛𝑒𝑟𝑎𝑡𝑒 𝑓𝑒𝑎𝑡𝑢𝑟𝑒
 - [x] 𝐴𝑢𝑡𝑜𝑚𝑎𝑡𝑖𝑐 𝐹𝑖𝑙𝑒 𝐹𝑖𝑙𝑡𝑒𝑟𝑖𝑛𝑔
-- [x] 𝐷𝑜𝑢𝑏𝑙𝑒 𝐹𝑖𝑙𝑡𝑒𝑟 𝐵𝑢𝑡𝑡𝑜𝑛
+- [x] 𝑜𝑢𝑏𝑙𝑒 𝐹𝑖𝑙𝑡𝑒𝑟 𝐵𝑢𝑡𝑡𝑜𝑛
 - [x] 𝑆𝑖𝑛𝑔𝑙𝑒 𝐹𝑖𝑙𝑡𝑒𝑟 𝐵𝑢𝑡𝑡𝑜𝑛
 - [x] 𝐵𝑜𝑡 𝑃𝑀 𝐹𝑖𝑙𝑒 𝑆𝑒𝑛𝑑 𝑀𝑜𝑑𝑒
 - [x] 𝐴𝑢𝑡𝑜 𝐹𝑖𝑙𝑒 𝑆𝑒𝑛𝑑
@@ -117,6 +117,9 @@
 * `FILE_STORE_CHANNEL`: Channel from were file store links of posts should be made.Separate multiple IDs by space
 * Check [info.py](https://github.com/TeamHMT/Auto-search-tamil-bot/blob/main/info.py) for more optional variables
 
+## Deployment Method
+
+### Click [Here To Deploy](https://github.com/Hariombotz/Spider_Filter_BoT_/blob/main/Readme/DEPLOYMENT.md) for your low efforts.
 
 ## Credits 
 * [![EvaMaria-Devs](https://img.shields.io/static/v1?label=EvaMaria&message=devs&color=critical)](https://telegram.dog/EvaMariaDevs)
