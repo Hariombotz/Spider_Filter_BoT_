@@ -12,7 +12,7 @@
 
 
 
-- Obtain a <b>MongoDB connection string</b> from [MongoDB Atlas](https://www.mongodb.com/cloud/atlas). If you're unsure how to create one, you can search for tutorials('how to make a mongodb connection string') on YouTube or ask for help in our support group at [Bisal Files Talk](https://t.me/Bisal_Files_Talk). Ensure that you've configured the IP whitelist to allow connections from anywhere (0.0.0.0/0).
+- Obtain a <b>MongoDB connection string</b> from [MongoDB Atlas](https://www.mongodb.com/cloud/atlas). If you're unsure how to create one, you can search for tutorials('how to make a mongodb connection string') on YouTube or ask for help in our support group at [Hb Support](https://t.me/hbbotz_supportch). Ensure that you've configured the IP whitelist to allow connections from anywhere (0.0.0.0/0).
 
 
 
