@@ -8,7 +8,7 @@
   𝑺𝒑𝒊𝒅𝒆𝒓 𝑭𝒊𝒍𝒕𝒆𝒓 𝑩𝒐𝒕
 </h1>
 
-![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=𝑊𝑒𝑙𝑐𝑜𝑚𝑒+𝑇𝑜+HB+Botz;𝐴+𝑠𝑖𝑚𝑝𝑙𝑒+𝑎𝑛𝑑+𝑝𝑜𝑤𝑒𝑟𝑓𝑢𝑙+𝐵𝑜𝑡;𝐼𝑛𝑑𝑒𝑥𝑒𝑠+𝐹𝑖𝑙𝑒𝑠+𝑎𝑏𝑜𝑣𝑒+2𝐺𝐵;𝑆𝑜𝑛𝑔+𝐷𝑜𝑤𝑛𝑙𝑜𝑎𝑑+𝐹𝑒𝑎𝑡𝑢𝑟𝑒𝑠;𝑃𝑟𝑒𝑚𝑖𝑢𝑚+𝑓𝑒𝑎𝑡𝑢𝑟𝑒;𝑅𝑒𝑝𝑜+𝑠𝑒𝑎𝑟𝑐ℎ+𝑓𝑒𝑎𝑡𝑢𝑟𝑒;𝐿𝑦𝑟𝑖𝑐𝑠+𝐷𝑜𝑤𝑛𝑙𝑜𝑎𝑑+𝑓𝑒𝑎𝑡𝑢𝑟𝑒;𝑃𝑎𝑠𝑠𝑤𝑜𝑟𝑑+𝐺𝑒𝑛𝑒𝑟𝑎𝑡𝑒+𝑓𝑒𝑎𝑡𝑢𝑟𝑒;𝐴+𝐵𝑜𝑡+𝑤𝑖𝑡ℎ+𝑑𝑜𝑢𝑏𝑙𝑒+𝑏𝑢𝑡𝑡𝑜𝑛;𝑆𝑡𝑎𝑟𝑡+𝑚𝑒𝑠𝑠𝑎𝑔𝑒+𝑤𝑖𝑡ℎ+𝑝𝑖𝑐;𝐴𝑛𝑑+𝑚𝑜𝑟𝑒+𝑓𝑒𝑎𝑡𝑢𝑟𝑒𝑠)
+![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=𝑊𝑒𝑙𝑐𝑜𝑚𝑒+𝑇𝑜+HB+Botz;𝐴+𝑠𝑖𝑚𝑝𝑙𝑒+𝑎𝑛𝑑+𝑝𝑜𝑤𝑒𝑟𝑓𝑢𝑙+𝐵𝑜𝑡;𝑆𝑚𝑎𝑟𝑡+𝑆𝑒𝑎𝑟𝑐ℎ;𝐼𝑛𝑑𝑒𝑥𝑒𝑠+𝐹𝑖𝑙𝑒𝑠+𝑎𝑏𝑜𝑣𝑒+2𝐺𝐵;𝑆𝑜𝑛𝑔+𝐷𝑜𝑤𝑛𝑙𝑜𝑎𝑑+𝐹𝑒𝑎𝑡𝑢𝑟𝑒𝑠;𝑃𝑟𝑒𝑚𝑖𝑢𝑚+𝑓𝑒𝑎𝑡𝑢𝑟𝑒;𝑅𝑒𝑝𝑜+𝑠𝑒𝑎𝑟𝑐ℎ+𝑓𝑒𝑎𝑡𝑢𝑟𝑒;𝐿𝑦𝑟𝑖𝑐𝑠+𝐷𝑜𝑤𝑛𝑙𝑜𝑎𝑑+𝑓𝑒𝑎𝑡𝑢𝑟𝑒;𝑃𝑎𝑠𝑠𝑤𝑜𝑟𝑑+𝐺𝑒𝑛𝑒𝑟𝑎𝑡𝑒+𝑓𝑒𝑎𝑡𝑢𝑟𝑒;𝐴+𝐵𝑜𝑡+𝑤𝑖𝑡ℎ+𝑑𝑜𝑢𝑏𝑙𝑒+𝑏𝑢𝑡𝑡𝑜𝑛;𝑆𝑡𝑎𝑟𝑡+𝑚𝑒𝑠𝑠𝑎𝑔𝑒+𝑤𝑖𝑡ℎ+𝑝𝑖𝑐;𝐴𝑛𝑑+𝑚𝑜𝑟𝑒+𝑓𝑒𝑎𝑡𝑢𝑟𝑒𝑠)
 </p>
 
 ## 𝐹𝑒𝑎𝑡𝑢𝑟𝑒𝑠
@@ -17,6 +17,7 @@
 - [x] 𝑃𝑟𝑒𝐷𝑉𝐷 𝑎𝑛𝑑 𝐶𝑎𝑚𝑅𝑖𝑝 𝐷𝑒𝑙𝑒𝑡𝑒 𝑀𝑜𝑑𝑒
 - [x] 𝑀𝑢𝑙𝑡𝑖𝑝𝑙𝑒 𝐹𝑖𝑙𝑒 𝐷𝑒𝑙𝑒𝑡𝑖𝑜𝑛
 - [x] 𝑆𝑒𝑡𝑡𝑖𝑛𝑔𝑠 𝑀𝑒𝑛𝑢
+- [x] 𝑆𝑚𝑎𝑟𝑡 𝑆𝑒𝑎𝑟𝑐ℎ
 - [x] 𝑅𝑒𝑝𝑜 𝑠𝑒𝑎𝑟𝑐ℎ 𝑓𝑒𝑎𝑡𝑢𝑟𝑒
 - [x] 𝑊𝑒𝑙𝑐𝑜𝑚𝑒 𝑀𝑒𝑠𝑠𝑎𝑔𝑒
 - [X] 𝑃𝑟𝑒𝑚𝑖𝑢𝑚 𝑓𝑒𝑎𝑡𝑢𝑟𝑒
@@ -108,78 +109,23 @@
 * `ADMINS`: Username or ID of Admin. Separate multiple Admins by space
 * `DATABASE_URI`: [mongoDB](https://www.mongodb.com) URI. Get this value from [mongoDB](https://www.mongodb.com). For more help watch this [video](https://youtu.be/1G1XwEOnxxo)
 * `DATABASE_NAME`: Name of the database in [mongoDB](https://www.mongodb.com).
+* `PREMIUM_LOGS` : A channel to log the activities of bot. Make sure bot is an admin in the channel.
 * `LOG_CHANNEL` : A channel to log the activities of bot. Make sure bot is an admin in the channel.
+* `REQST_CHANNEL_ID` : Activate bot button Then add request channel id and Make sure bot admin in the channel.
 ### Optional Variables
 * `PICS`: Telegraph links of images to show in start message.( Multiple images can be used separated by space )
 * `FILE_STORE_CHANNEL`: Channel from were file store links of posts should be made.Separate multiple IDs by space
 * Check [info.py](https://github.com/TeamHMT/Auto-search-tamil-bot/blob/main/info.py) for more optional variables
 
 
-<details><summary>Deploy To Heroku</summary>
-<p>
-<br>
-<a href="https://heroku.com/deploy?template=https://github.com/TeamHMT/Auto-search-tamil-bot">
-  <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy To Heroku">
-</a>
-</p>
-</details>
-
-<details><summary>Deploy To Koyeb</summary>
-<br>
-<b>The fastest way to deploy the application is to click the Deploy to Koyeb button below.</b>
-<br>
-<br>
-
-[![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?type=git&repository=github.com/TeamHMT/Auto-search-tamil-bot&branch=main&name=Auto-search-tamil-bot)
-</details>
-
-<details><summary>Deploy To Render</summary>
-<br>
-<b>
-Use these commands:
-<br>
-<br>
-• Build Command: <code>pip3 install -U -r requirements.txt</code>
-<br>
-<br>
-• Start Command: <code>python3 bot.py</code>
-<br>
-<br>
-Go to https://uptimerobot.com/ and add a monitor to keep your bot alive.
-<br>
-<br>
-Use these settings when adding a monitor:</b>
-<br>
-<br>
-<img src="https://telegra.ph/file/a79a156e44f43c9833b50.jpg" alt="render template">
-<br>
-<br>
-<b>Click on the below button to deploy directly to render ↓</b>
-<br>
-<br>
-<a href="https://render.com/deploy?repo=https://github.com/TeamHMT/Auto-search-tamil-bot/tree/main">
-<img src="https://render.com/images/deploy-to-render-button.svg" alt="Deploy to Render">
-</a>
-</details>
-
-<details><summary>Deploy To VPS</summary>
-<p>
-<pre>
-git clone https://github.com/TeamHMT/Auto-search-tamil-bot
-# Install Packages
-pip3 install -U -r requirements.txt
-Edit info.py with variables as given below then run bot
-python3 bot.py
-</pre>
-</p>
-</details>
-
-<hr>
-
 ## Credits 
 * [![EvaMaria-Devs](https://img.shields.io/static/v1?label=EvaMaria&message=devs&color=critical)](https://telegram.dog/EvaMariaDevs)
 * [![Joel-TGX](https://img.shields.io/static/v1?label=Jᴏᴇʟ+ᠰ+TɢX&message=Github&color=critical)](https://github.com/Joelkb)
 * [![Contact](https://img.shields.io/static/v1?label=Contact+Developer&message=On+Telegram&color=critical)](https://telegram.me/creatorbeatz)
+* [![Hbbotz](https://img.shields.io/static/v1?label=Hb+botz&message=Github&color=critical)](https://github.com/Hariombotz)
+* [![Contact](https://img.shields.io/static/v1?label=Contact+Developer&message=On+Telegram&color=critical)](https://telegram.me/hbbotz)
+* [![Jerry Bhai](https://img.shields.io/static/v1?label=jerry&message=Github&color=critical)](https://github.com/TeamHMT)
+* [![Contact](https://img.shields.io/static/v1?label=Contact+Developer&message=On+Instagram&color=critical)](https://www.instagram.com/ohh.itsjerry?igsh=MWttYmI2anV3bnI0NQ==)
 * [![TTBots](https://img.shields.io/static/v1?label=Tᴛ+Bᴏᴛs&message=Github&color=critical)](https://github.com/TeamHMT)
 * [![Contact](https://img.shields.io/static/v1?label=Contact+Developer&message=On+Telegram&color=critical)](https://telegram.me/TeamHMT_Bots)
 
@@ -190,7 +136,10 @@ python3 bot.py
  - Thanks To All Everyone In This Journey
  - Thanks To [EvamariaTG](https://raw.githubusercontent.com/EvamariaTG) for their awesome [EvaMaria Bot](https://raw.githubusercontent.com/EvamariaTG/EvaMaria)
  - Thanks To [Joelkb](https://github.com/Joelkb) for their awesome repo [DqFileDonor](https://github.com/Joelkb/DQ-the-file-donor)
- - Thanks To [TTBots](https://github.com/TeamHMT) who have edited and modified this repo as now it is. (It's me 😂)
+ - Thanks To [TTBots](https://github.com/TeamHMT) Thank you to tt botz for awesome repo provide.
+ - Thanks To [Hbbotz](https://github.com/Hariombotz) who have edited and modified this repo as now it is. (It's me 😂)
+ - Thanks To [Jerry Bhai](https://www.instagram.com/ohh.itsjerry?igsh=MWttYmI2anV3bnI0NQ==) Thank you jerry Bhai for helping edit this awesome repo and adding feature.
+ - Thanks To [Amir Bhai](https://github.com/amirbotz) Thank you Amir bhai to adding Smart Search 
 
 ## Note 🏷️
  - <b>Importing this repo instead of forking is strictly prohibited 🚫 Kindly fork and edit as your wish (Must Give Credits for devs) 🙃</b>
@@ -206,14 +155,3 @@ Fork the repo and edit as per your needs.
 [![GNU Affero General Public License 2.0](https://www.gnu.org/graphics/agplv3-155x51.png)](https://www.gnu.org/licenses/agpl-3.0.en.html#header)    
 Licensed under [GNU AGPL 2.0.](https://github.com/EvamariaTG/evamaria/blob/master/LICENSE)
 Selling The Codes To Other People For Money Is *Strictly Prohibited*.
-
-## Inspiration
-This is an attempt to create a clone of a BOAT made out of [banana trees 🌳](https://telegram.dog/GetTGLink/4187)
-
-[![For Vaza](https://telegra.ph/file/e743b0c8a04252774bac2.jpg)](https://telegra.ph/file/98342dc186fd7484cba91.mp4 "Oru Kootam Vazhakalk samarpikkunnu")
-pip3 install -U -r requirements.txt
-Edit info.py with variables as given below then run bot
-python3 bot.py
-</pre>
-</p>
-</details>
