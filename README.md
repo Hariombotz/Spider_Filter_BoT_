@@ -115,7 +115,7 @@
 ### Optional Variables
 * `PICS`: Telegraph links of images to show in start message.( Multiple images can be used separated by space )
 * `FILE_STORE_CHANNEL`: Channel from were file store links of posts should be made.Separate multiple IDs by space
-* Check [info.py](https://github.com/TeamHMT/Auto-search-tamil-bot/blob/main/info.py) for more optional variables
+* Check [info.py](https://github.com/Hariombotz/Spider_Filter_BoT_/blob/main/info.py) for more optional variables
 
 ## Deployment Method
 
@@ -147,7 +147,7 @@
 ## Note 🏷️
  - <b>Importing this repo instead of forking is strictly prohibited 🚫 Kindly fork and edit as your wish (Must Give Credits for devs) 🙃</b>
  - <b>If you find any bugs or errors, report it to the developer.</b>
-* [![Contact Developer](https://img.shields.io/static/v1?label=Contact+Developer&message=On+Telegram&color=critical)](https://telegram.me/TeamHMT_Bots)
+* [![Contact Developer](https://img.shields.io/static/v1?label=Contact+Developer&message=On+Telegram&color=critical)](https://t.me/hbbotz_supportch)
 
 [Note To A So Called Dev](https://telegram.dog/subin_works/203): 
 
