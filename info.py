@@ -1,3 +1,6 @@
+# Don't Remove Credit @hbbotz, @Hariomsingh31u
+# Ask Doubt on telegram @hbbotz_supportch
+
 import re
 from os import environ
 from Script import script 
