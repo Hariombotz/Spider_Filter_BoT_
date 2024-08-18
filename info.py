@@ -1,5 +1,5 @@
 # Don't Remove Credit @hbbotz, @Hariomsingh31u
-# Ask Doubt on telegram @hbbotz_supportch
+# Ask Doubt on telegram @hbbotz_supportch hariom singh
 
 import re
 from os import environ
