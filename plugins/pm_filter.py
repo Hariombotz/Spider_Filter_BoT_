@@ -84,8 +84,8 @@ async def pm_text(client, message):
     if not (data and data.get("expiry_time")):
         await message.reply_text(
             text=f"<b>Hey, {user} you are not a premium user, so you can't search for movies in PM.</b>",
-            reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("Buy Premium", callback_data="seeplans"),
-            reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("Search Here", url=f"https://t.me/+YhP5Bm0JNiw0Njll")]]))
+            reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("Buy Premium", callback_data="seeplans")
+            reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("Search Here", url=f"https://t.me/+YhP5Bm0JNiw0Njll")
         )
         await client.send_message(
             chat_id=LOG_CHANNEL,
