@@ -1461,13 +1461,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
         
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
-            text="▫️◽◻️🔲"
+            text="𝑳𝒐𝒅𝒊𝒏𝒈...."
         )
         await query.message.edit_text(
-            text="🔲◻️◽▫️"
+            text="𝑳𝒐𝒅𝒊𝒏𝒈......"
         )
         await query.message.edit_text(
-            text="▫️◽◻️🔲"
+            text="𝑫𝒐𝒏𝒆 ✅️"
         )
         await query.message.edit_text(
             text=script.START_TXT.format(query.from_user.mention, query.from_user.id, temp.U_NAME, temp.B_NAME),
@@ -1738,7 +1738,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "help":
         buttons = [[
             InlineKeyboardButton('ꜱᴇᴀʀᴄʜ ʀᴇᴘᴏ', callback_data='filters'),
-            InlineKeyboardButton('ɪɴꜰᴏ', callback_data='developer')
+            InlineKeyboardButton('ɪɴꜰᴏ', callback_data='developer_txt')
         ], [
             InlineKeyboardButton('ᴅᴏᴡɴʟᴏᴀᴅ ʟʏʀɪᴄꜱ', callback_data='coct'),
             InlineKeyboardButton('ɢᴇɴ ᴘᴀꜱꜱᴡᴏʀᴅ', callback_data='extra')
