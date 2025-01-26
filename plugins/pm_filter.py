@@ -1454,7 +1454,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     InlineKeyboardButton('⤬ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ⤬', url=f'http://telegram.me/{temp.U_NAME}?startgroup=true')
                 ],[
                     InlineKeyboardButton('⚙️ ꜰᴇᴀᴛᴜʀᴇꜱ', callback_data="help"),
-                    InlineKeyboardButton('🪙 ғʀᴇᴇ ᴘʀᴇᴍɪᴜᴍ', callback_data='money_bot')
+                    InlineKeyboardButton('🎟️ ᴜᴘɢʀᴀᴅᴇ', callback_data='money_bot')
                 ],[
                     InlineKeyboardButton('💰 ᴇᴀʀɴ ᴍᴏɴᴇʏ ᴡɪᴛʜ ᴍᴇ 💰', callback_data="shortlink_info")
                   ]]
@@ -1737,11 +1737,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
     
     elif query.data == "help":
         buttons = [[
-            InlineKeyboardButton('Rᴇᴘᴏ Sᴇᴀʀᴄʜ 🔎', callback_data='filters'),
-            InlineKeyboardButton('Sᴏɴɢ ᴅᴏᴡɴʟᴏᴀᴅ 🎵', callback_data='store_file')
+            InlineKeyboardButton('ꜱᴇᴀʀᴄʜ ʀᴇᴘᴏ', callback_data='filters'),
+            InlineKeyboardButton('ꜱᴏᴜʀᴄᴇ', callback_data='source')
         ], [
-            InlineKeyboardButton('Lʏʀɪᴄꜱ Dᴏᴡɴʟᴏᴀᴅ 📄', callback_data='coct'),
-            InlineKeyboardButton('Gᴇɴ Pᴀꜱꜱᴡᴏʀᴅ 🔐', callback_data='extra')
+            InlineKeyboardButton('ᴅᴏᴡɴʟᴏᴀᴅ ʟʏʀɪᴄꜱ', callback_data='coct'),
+            InlineKeyboardButton('ɢᴇɴ ᴘᴀꜱꜱᴡᴏʀᴅ', callback_data='extra')
         ], [
             InlineKeyboardButton('⟸ Bᴀᴄᴋ', callback_data='start'),
             InlineKeyboardButton('Sᴛᴀᴛᴜs ⚒️', callback_data='stats')
