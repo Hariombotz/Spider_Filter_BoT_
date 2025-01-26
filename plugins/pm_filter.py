@@ -1738,7 +1738,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "help":
         buttons = [[
             InlineKeyboardButton('ꜱᴇᴀʀᴄʜ ʀᴇᴘᴏ', callback_data='filters'),
-            InlineKeyboardButton('ɪɴꜰᴏ', callback_data='developer')
+            InlineKeyboardButton('ɪɴꜰᴏ', callback_data='store_file')
         ], [
             InlineKeyboardButton('ᴅᴏᴡɴʟᴏᴀᴅ ʟʏʀɪᴄꜱ', callback_data='coct'),
             InlineKeyboardButton('ɢᴇɴ ᴘᴀꜱꜱᴡᴏʀᴅ', callback_data='extra')
