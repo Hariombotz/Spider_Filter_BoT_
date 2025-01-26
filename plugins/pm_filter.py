@@ -1461,13 +1461,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
         
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
-            text="𝑾𝒂𝒊𝒕...."
+            text="▫️◽◻️🔲"
         )
         await query.message.edit_text(
-            text="𝑳𝒐𝒅𝒊𝒏𝒈......"
+            text="🔲◻️◽▫️"
         )
         await query.message.edit_text(
-            text="𝑫𝒐𝒏𝒆 ✅️"
+            text="▫️◽◻️🔲"
         )
         await query.message.edit_text(
             text=script.START_TXT.format(query.from_user.mention, query.from_user.id, temp.U_NAME, temp.B_NAME),
