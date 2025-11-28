@@ -40,6 +40,9 @@ def song(client, message):
     ydl_opts = {"format": "bestaudio[ext=m4a]"}
     try:
         results = YoutubeSearch(query, max_results=1).to_dict()
+        if not results:
+            await message.reply("No results found.")
+            return
         link = f"https://youtube.com{results[0]['url_suffix']}"
         #print(results)
         title = results[0]["title"][:40]       
