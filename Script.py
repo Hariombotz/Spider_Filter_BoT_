@@ -347,7 +347,7 @@ Aᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅs:
 • /delallg - <code>ᴛᴏ ᴅᴇʟᴇᴛᴇ ᴀʟʟ ɢʟᴏʙᴀʟ ꜰɪʟᴛᴇʀꜱ.</code>"""
     
     FILE_STORE_TXT = """
-<b>Oᴡɴᴇʀ : <a href=https://t.me/Hariomsingh31u>ʜᴀʀɪᴏᴍ ꜱɪɴɢʜ</a></b>
+<b>Oᴡɴᴇʀ : <a href=https://t.me/hbbotz>ᴛᴀᴘ</a></b>
 Sᴏᴜʀᴄᴇ : <a href='https://github.com/Hariombotz/Spider_Filter_BoT_'>ᴘᴜʙʟɪᴄ</a>
 Bᴏᴛ ᴜᴘᴅᴀᴛᴇ ꜱᴛᴀᴛᴜꜱ : <a href='https://t.me/hbbotz'>ꜱᴏᴏɴ</a></b>"""
 
