@@ -75,7 +75,7 @@ async def song(client, message):
             dur += (int(dur_arr[i]) * secmul)
             secmul *= 60
         try:
-    if audio_file:  # ensure audio_file exists
+    if audio_file:
         await message.reply_audio(
             audio_file,
             caption=rep,
@@ -88,7 +88,7 @@ async def song(client, message):
         )
     await m.delete()
 except Exception as e:
-    await m.edit("**🚫 𝙴𝚁𝚁𝙾𝗥 🚫**")  # must use await
+    await m.edit("**🚫 𝙴𝚁𝚁𝙾𝗥 🚫**")
     print(e)
 
 # Safely remove files
