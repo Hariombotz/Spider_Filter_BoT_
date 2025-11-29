@@ -76,15 +76,15 @@ async def song(client, message):
             secmul *= 60
             try:
                 if audio_file:
-        await message.reply_audio(
-            audio_file,
-            caption=rep,
+                    await message.reply_audio(
+                        audio_file,
+                        caption=rep,
             parse_mode=enums.ParseMode.MARKDOWN,
-            quote=False,
-            title=title,
-            duration=dur,
-            performer=performer,
-            thumb=thumb_name
+                        quote=False,
+                        title=title,
+                        duration=dur,
+                        performer=performer,
+                        thumb=thumb_name
         )
     await m.delete()
 except Exception as e:
