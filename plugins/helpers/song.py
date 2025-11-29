@@ -74,17 +74,31 @@ async def song(client, message):
         for i in range(len(dur_arr)-1, -1, -1):
             dur += (int(dur_arr[i]) * secmul)
             secmul *= 60
-        await message.reply_audio(audio_file, caption=rep, parse_mode=enums.ParseMode.MARKDOWN,quote=False, title=title, duration=dur, performer=performer, thumb=thumb_name)
-        await m.delete()
-    except Exception as e:
-        m.edit("**🚫 𝙴𝚁𝚁𝙾𝚁 🚫**")
-        print(e)
+        try:
+    if audio_file:  # ensure audio_file exists
+        await message.reply_audio(
+            audio_file,
+            caption=rep,
+            parse_mode=enums.ParseMode.MARKDOWN,
+            quote=False,
+            title=title,
+            duration=dur,
+            performer=performer,
+            thumb=thumb_name
+        )
+    await m.delete()
+except Exception as e:
+    await m.edit("**🚫 𝙴𝚁𝚁𝙾𝗥 🚫**")  # must use await
+    print(e)
 
-    try:
+# Safely remove files only if they exist
+try:
+    if audio_file:
         os.remove(audio_file)
+    if thumb_name:
         os.remove(thumb_name)
-    except Exception as e:
-        print(e)
+except Exception as e:
+    print(e)
 
 def get_text(message: Message) -> [None,str]:
     text_to_return = message.text
