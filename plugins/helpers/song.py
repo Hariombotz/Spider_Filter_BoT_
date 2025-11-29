@@ -91,7 +91,7 @@ except Exception as e:
     await m.edit("**🚫 𝙴𝚁𝚁𝙾𝗥 🚫**")  # must use await
     print(e)
 
-# Safely remove files only if they exist
+# Safely remove files
 try:
     if audio_file:
         os.remove(audio_file)
@@ -99,7 +99,6 @@ try:
         os.remove(thumb_name)
 except Exception as e:
     print(e)
-
 def get_text(message: Message) -> [None,str]:
     text_to_return = message.text
     if message.text is None:
