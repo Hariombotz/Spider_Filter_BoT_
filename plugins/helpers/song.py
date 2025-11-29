@@ -86,10 +86,10 @@ async def song(client, message):
                         performer=performer,
                         thumb=thumb_name
         )
-    await m.delete()
-except Exception as e:
-    await m.edit("**🚫 𝙴𝚁𝚁𝙾𝗥 🚫**")
-    print(e)
+                    await m.delete()
+            except Exception as e:
+                await m.edit("**🚫 𝙴𝚁𝚁𝙾𝗥 🚫**")
+                print(e)
 
 # Safely remove files
 try:
