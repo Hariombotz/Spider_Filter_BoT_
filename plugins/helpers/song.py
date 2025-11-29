@@ -92,13 +92,13 @@ async def song(client, message):
                 print(e)
 
 # Safely remove files
-try:
-    if audio_file:
-        os.remove(audio_file)
-    if thumb_name:
-        os.remove(thumb_name)
-except Exception as e:
-    print(e)
+    try:
+        if audio_file:
+            os.remove(audio_file)
+            if thumb_name:
+                os.remove(thumb_name)
+    except Exception as e:
+        print(e)
 def get_text(message: Message) -> [None,str]:
     text_to_return = message.text
     if message.text is None:
