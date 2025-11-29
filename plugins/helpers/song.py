@@ -31,7 +31,15 @@ async def song(client, message):
     query = " ".join(message.command[1:])
     print(query)
     m = await message.reply("**Wᴀɪᴛ ꜱᴇᴀʀᴄʜɪɴɢ ʏᴏᴜʀ ꜱᴏɴɢ...!**")
-    ydl_opts = {"format": "bestaudio[ext=m4a]"}
+
+    # --- Edited ydl_opts ---
+    ydl_opts = {
+        "format": "bestaudio[ext=m4a]",
+        "noplaylist": True,  # prevents playlist downloads
+        "quiet": True,
+        "extractor_args": {"youtube": {"player_client": ["default"]}},
+        # "cookiefile": "cookies.txt"  # optional if login required
+    }
 
     try:
         results = YoutubeSearch(query, max_results=1).to_dict()
@@ -139,6 +147,8 @@ async def vsong(client, message: Message):
         "outtmpl": "%(id)s.mp4",
         "logtostderr": False,
         "quiet": True,
+        "noplaylist": True,  # prevents playlist downloads
+        "extractor_args": {"youtube": {"player_client": ["default"]}},  # prevents JS runtime warning
     }
 
     try:
